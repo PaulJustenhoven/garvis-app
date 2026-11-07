@@ -1,0 +1,169 @@
+/* Garvis – Leistungs-/Pace-Kurve, Rennplanung, Jahresrückblick (perf.js). Nutzt die CSS-Variablen aus index.html. */
+
+/* ---------- Kurven (Fortschritt) ---------- */
+.pf-card .pf-r { font-size: 0.765rem; font-weight: 600; font-family: var(--sans); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pf-kpis, .rp-tiles, .yr-kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 12px 10px; margin: 12px 0 6px; }
+@media (max-width: 640px) { .pf-kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.pf-kpi { min-width: 0; }
+.pf-kpi .l { font: 600 0.765rem/1.4 var(--sans); text-transform: uppercase; letter-spacing: .02em; color: var(--text-muted); }
+.pf-kpi .v { font-size: 1.412rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.2; overflow-wrap: anywhere; }
+.pf-kpi .v small { font-size: 0.765rem; font-weight: 500; color: var(--text-muted); margin-left: 3px; letter-spacing: 0; }
+.pf-kpi .f { font-size: 0.765rem; color: var(--text-secondary); }
+.pf-meth { font-size: 0.765rem; margin: 0 0 4px; }
+.pf-meth:empty { display: none; }
+.pf-ctl { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: 12px 0 8px; }
+.pf-ctl:empty { display: none; }
+.pf-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.pf-chips button { font: inherit; font-size: 0.765rem; display: inline-flex; align-items: center; gap: 7px; padding: 6px 10px; border-radius: var(--r-pill); cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary); }
+.pf-chips button i { width: 14px; height: 2px; border-radius: 1px; display: inline-block; opacity: .35; }
+.pf-chips button[aria-pressed="true"] { color: var(--text-primary); font-weight: 600; background: var(--surface-2); border-color: color-mix(in srgb, var(--text-primary) 30%, transparent); }
+.pf-chips button[aria-pressed="true"] i { opacity: 1; height: 3px; }
+.pf-unit button { font-size: 0.765rem; padding: 5px 10px; }
+.pf-chart text { font-size: 12px; }
+.pf-tbl { margin-top: 10px; }
+.pf-tbl > summary { cursor: pointer; font-size: 0.765rem; font-weight: 600; color: var(--text-secondary); padding: 4px 0; }
+.pf-tbl .tscroll { margin-top: 6px; max-height: 360px; }
+.pf-tbl td small, .pf-best td small { display: block; color: var(--text-muted); font-size: 0.765rem; }
+.pf-h4 { margin: 16px 0 6px; font-size: 0.824rem; font-weight: 600; }
+.pf-best { max-height: none; }
+.pf-best td b { font-weight: 600; }
+.pf-src { font-size: 0.765rem; margin: 10px 0 0; }
+@media (max-width: 640px) { .pf-dk { display: none; } }
+
+/* ---------- Rennplanung ---------- */
+.rp-grid { display: grid; gap: 16px; margin-top: 14px; }
+@media (min-width: 900px) { .rp-grid { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 18px; align-items: start; } }
+.rp-count { display: flex; align-items: baseline; gap: 10px; margin: 6px 0 2px; }
+.rp-count b { font-size: 3.765rem; font-weight: 600; letter-spacing: -.04em; line-height: 1; }
+.rp-count span { font-size: 1.059rem; color: var(--text-secondary); }
+.rp-ev { font-size: 1.176rem; font-weight: 600; letter-spacing: -.01em; margin-top: 8px; }
+.rp-meta { color: var(--text-secondary); font-size: 0.824rem; margin-top: 2px; }
+/* hoher Segmentbalken: Abschnitte als Zeitstrahl, 28px, 2px Flächen-Lücke */
+.rp-seg { display: flex; gap: 2px; height: 28px; margin: 12px 0 4px; }
+.rp-part { min-width: 3px; border-radius: 4px; display: flex; align-items: center; overflow: visible; cursor: default; outline-offset: 2px; }
+.rp-part span { font: 600 0.765rem/1 system-ui, -apple-system, sans-serif; white-space: nowrap; padding: 0 6px; }
+.rp-axis { display: flex; justify-content: space-between; font: 0.765rem var(--sans); font-variant-numeric: tabular-nums; color: var(--text-muted); }
+.rp-list { list-style: none; margin: 12px 0 0; padding: 0; border-top: 1px solid var(--grid); }
+.rp-leg { display: grid; grid-template-columns: 10px 1fr auto; gap: 10px; align-items: start; padding: 11px 0; border-bottom: 1px solid var(--grid); }
+.rp-leg.tr { padding: 7px 0; }
+.rp-leg.tr .rp-lb b { font-weight: 500; color: var(--text-secondary); }
+.rp-mk { width: 10px; height: 10px; border-radius: 3px; margin-top: 5px; display: inline-block; }
+.rp-lb { min-width: 0; }
+.rp-lb b { font-weight: 600; }
+.rp-tg { font-size: 0.824rem; color: var(--text-primary); margin-top: 2px; }
+.rp-nt { font-size: 0.765rem; color: var(--text-secondary); margin-top: 2px; }
+.rp-tm { text-align: right; font-variant-numeric: tabular-nums; }
+.rp-tm b { font-weight: 600; }
+.rp-tm small { display: block; color: var(--text-muted); font-size: 0.765rem; }
+.rp-total { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 14px; }
+.rp-tt { font-size: 1.882rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.15; }
+.rp-tt small { font-size: 0.824rem; color: var(--text-muted); margin-left: 4px; font-weight: 500; }
+.rp-tc { text-align: right; }
+.rp-status { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; font-size: 0.824rem; margin-top: 4px; }
+.rp-status i { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--c) 24%, var(--surface-2)); color: var(--text-primary); }
+.rp-status i svg.ic { width: 13px; height: 13px; }
+.rp-df { font-size: 0.765rem; color: var(--text-secondary); margin-top: 2px; }
+.rp-fu { margin-top: 10px; }
+.rp-fu p { margin: 4px 0 0; font-size: 0.824rem; }
+.rp-fl { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }
+.rp-fl li { display: grid; grid-template-columns: 10px 1fr; gap: 10px; font-size: 0.824rem; }
+.rp-fl b { font-weight: 600; }
+.rp-ol { margin: 6px 0 0; padding-left: 20px; font-size: 0.824rem; display: grid; gap: 4px; }
+.rp-sched { list-style: none; margin: 12px 0 0; padding: 0; }
+.rp-sched li { display: grid; grid-template-columns: 48px 14px 1fr; gap: 8px; align-items: start; font-size: 0.824rem; padding: 6px 0; position: relative; }
+.rp-sched .tm { font: 600 0.765rem var(--mono); font-variant-numeric: tabular-nums; padding-top: 1px; }
+.rp-sched i { width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); margin: 6px 0 0 3px; box-shadow: 0 0 0 2px var(--surface-1); position: relative; z-index: 1; }
+.rp-sched li:not(:last-child)::after { content: ""; position: absolute; left: 63px; top: 18px; bottom: -8px; width: 1px; background: var(--grid); }
+.rp-meter { height: 6px; border-radius: 3px; background: var(--surface-2); margin: 12px 0 6px; overflow: hidden; }
+.rp-meter div { height: 100%; background: var(--s1); border-radius: 3px; transition: width .2s; }
+.rp-checks { list-style: none; margin: 8px 0 0; padding: 0; }
+.rp-checks li { border-bottom: 1px solid var(--grid); }
+.rp-checks li:last-child { border-bottom: 0; }
+.rp-checks label { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; padding: 9px 0; cursor: pointer; font-size: 0.824rem; }
+.rp-checks input { width: 18px; height: 18px; margin: 1px 0 0; accent-color: var(--s1); }
+.rp-checks li.done span { color: var(--text-muted); text-decoration: line-through; text-decoration-color: var(--axis); }
+.rp-checks small { display: block; font-size: 0.765rem; color: var(--text-muted); text-decoration: none; }
+.rp-cl li.due { background: color-mix(in srgb, var(--warning) 12%, transparent); border-radius: var(--r-ctl); border-bottom-color: transparent; margin: 2px -8px; padding: 0 8px; }
+.rp-cl li.due small b { display: inline-flex; align-items: center; gap: 3px; color: var(--text-primary); font-weight: 600; }
+.rp-cl li.due small b svg.ic { width: 12px; height: 12px; }
+.rp-due { font-size: 0.765rem; font-weight: 600; font-family: var(--sans); text-transform: uppercase; letter-spacing: .02em; color: var(--text-primary);
+  background: color-mix(in srgb, var(--warning) 22%, var(--surface-2)); border-radius: var(--r-ctl); padding: 4px 8px; }
+.rp-disc { font-size: 0.765rem; color: var(--text-muted); }
+
+/* ---------- Jahresrückblick ---------- */
+.yr-grid { display: grid; gap: 16px; margin-top: 14px; }
+@media (min-width: 900px) { .yr-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; } .yr-grid > .yr-hero, .yr-grid > .wide { grid-column: 1 / -1; } }
+.yr-grid > .stack:empty { display: none; }
+.pf-kpi .v small { white-space: nowrap; }
+.yr-hero { padding: 22px 20px; }
+.yr-eb { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 12px; }
+.yr-y { font-size: 1.294rem; font-weight: 600; letter-spacing: -.01em; margin-top: 10px; color: var(--text-secondary); }
+.yr-big { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; margin: 2px 0 14px; }
+.yr-big b { font-size: 4.235rem; font-weight: 600; letter-spacing: -.045em; line-height: 1; }
+.yr-big span { font-size: 1.059rem; color: var(--text-secondary); }
+.yr-thin { display: flex; gap: 2px; height: 8px; margin: 4px 0 6px; }
+.yr-thin i { border-radius: 4px; min-width: 2px; }
+.yr-kpis { grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); margin-top: 16px; }
+.yr-kpis.sm { margin-top: 8px; }
+@media (max-width: 640px) { .yr-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.yr-kpis .pf-kpi .v { font-size: 1.529rem; }
+.yr-col { transition: opacity .12s; }
+.yr-col.dim { opacity: .45; }
+.yr-bars { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 12px; }
+.yr-bl { display: flex; justify-content: space-between; gap: 10px; font-size: 0.824rem; margin-bottom: 5px; }
+.yr-bl span:first-child { display: inline-flex; align-items: center; }
+.yr-bl .num small { font-weight: 500; color: var(--text-muted); margin-left: 4px; font-size: 0.765rem; }
+.yr-track { height: 10px; }
+.yr-track div { height: 100%; border-radius: 0 4px 4px 0; }
+.yr-bf { font-size: 0.765rem; color: var(--text-muted); margin-top: 3px; }
+.yr-hl { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.yr-hl li { display: grid; grid-template-columns: 20px 1fr; gap: 8px; font-size: 0.882rem; }
+.yr-hl svg.ic { width: 18px; height: 18px; color: var(--text-secondary); margin-top: 1px; }
+.yr-prs { margin-top: 10px; }
+.yr-prs .r b { font-weight: 600; }
+.yr-vs { max-height: none; margin-top: 8px; }
+.yr-vs td b { font-weight: 600; }
+.yr-dev .chart text { font-size: 12px; }
+#yrDev .subchart h4.chead { font-size: 0.824rem; }
+#yrDev .subchart .pf-ctl { margin-top: 6px; }
+/* Heute: Kachel „Dein Sportjahr“ */
+.yr-tile { display: block; text-decoration: none; }
+.yr-tk { display: flex; justify-content: space-between; align-items: center; }
+.yr-tk svg.ic { color: var(--text-muted); }
+.yr-tv { font-size: 2.353rem; font-weight: 600; letter-spacing: -.03em; line-height: 1.1; margin-top: 6px; }
+.yr-tv small { font-size: 0.941rem; font-weight: 500; color: var(--text-secondary); margin-left: 8px; letter-spacing: 0; }
+.yr-ts { font-size: 0.824rem; color: var(--text-secondary); margin: 2px 0 10px; }
+.yr-vs th, .yr-vs td { padding: 7px 6px; }
+.yr-vs th:first-child, .yr-vs td:first-child { padding-left: 0; }
+
+/* ---------- Strecken: Höhenprofil, Abschnittstabelle, Übersicht ---------- */
+.rp-cn { font-size: 1rem; font-weight: 600; letter-spacing: -.01em; margin-top: 2px; overflow-wrap: anywhere; }
+.rp-course .desc { margin: 2px 0 0; }
+.rp-ph { margin-top: 10px; }
+.rp-prof text.rp-lap { fill: var(--text-muted); }
+.rp-aidk { width: 0 !important; height: 0 !important; border-radius: 0 !important; background: none !important; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 7px solid var(--text-primary); }
+.rp-laps { margin-top: 10px; }
+.rp-st { margin-top: 12px; max-height: none; }
+.rp-st th, .rp-st td { padding: 7px 8px; vertical-align: top; }
+.rp-st th:first-child, .rp-st td:first-child { padding-left: 0; }
+.rp-st th:last-child, .rp-st td:last-child { padding-right: 0; }
+.rp-st td small { display: block; color: var(--text-muted); font-size: 0.765rem; }
+.rp-st td.rp-tgc { white-space: normal; min-width: 140px; }
+.rp-st td small.rp-tgm { color: var(--text-secondary); font-size: 0.765rem; white-space: normal; margin-top: 2px; }
+@media (min-width: 641px) { .rp-st td small.rp-tgm { display: none; } }
+.rp-ty { display: inline-flex; align-items: center; gap: 6px; }
+.rp-ty i { width: 10px; height: 10px; border-radius: 3px; flex: none; }
+.rp-cl-a { display: inline-flex; align-items: center; gap: 4px; color: var(--text-secondary); text-decoration: none; border-bottom: 1px dotted var(--axis); }
+.rp-cl-a svg.ic { width: 13px; height: 13px; }
+.rp-cnotes { margin-top: 10px; }
+.cs-f { margin-bottom: 8px; }
+.cs-list { list-style: none; margin: 0; padding: 0; }
+.cs-list > li + li { border-top: 1px solid var(--grid); }
+.cs-list summary { display: flex; align-items: center; gap: 12px; padding: 11px 0; cursor: pointer; list-style: none; }
+.cs-list summary::-webkit-details-marker { display: none; }
+.cs-list summary::after { content: ""; flex: none; margin-left: auto; width: 7px; height: 7px; border-right: 2px solid var(--text-muted); border-bottom: 2px solid var(--text-muted); transform: rotate(45deg); transition: transform .15s; }
+.cs-list details[open] summary::after { transform: rotate(-135deg); }
+.cs-mp { width: 88px; height: 30px; }
+.cs-tag { white-space: nowrap; font: 600 0.765rem/1 var(--sans); text-transform: uppercase; letter-spacing: .02em; color: var(--text-secondary); background: var(--surface-2); border-radius: var(--r-ctl); padding: 3px 6px; vertical-align: 2px; margin-left: 4px; }
+.cs-body { padding: 0 0 14px; }

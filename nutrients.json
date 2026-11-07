@@ -1,0 +1,1231 @@
+{
+  "version": 1,
+  "verified": "2026-11-07",
+  "sources": {
+    "dge": "Deutsche Gesellschaft für Ernährung (DGE), ÖGE. Referenzwerte für die Nährstoffzufuhr, Online-Ausgabe (dge.de/wissenschaft/referenzwerte), abgerufen 2026-11-07; Stand der Ableitung je Nährstoff angegeben (z. B. Jod 2025, Eisen 2023, Magnesium 2021).",
+    "dge_faq": "DGE. FAQ Vitamin D (gemeinsam mit BfR und MRI) und FAQ Vitamin B12; DGE-Empfehlungen „Gut essen und trinken“. dge.de, abgerufen 2026-11-07.",
+    "klug2024": "Klug A, Barbaresko J, Alexy U, et al. Update of the DGE position on vegan diet – Position statement of the German Nutrition Society (DGE). Ernahrungs Umschau. 2024;71(7):60–84. doi:10.4455/eu.2024.22",
+    "efsa_ul2025": "EFSA. Overview on Tolerable Upper Intake Levels as derived by the Scientific Committee on Food (SCF) and the EFSA NDA Panel. Version 11 (August 2025).",
+    "scf_ul2006": "EFSA/SCF. Tolerable Upper Intake Levels for Vitamins and Minerals. EFSA, 2006 (Einzel-Opinions SCF 2001 Magnesium, 2002 Zink, 2003 Jod).",
+    "efsa_vitd_ul2023": "EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for vitamin D, including the derivation of a conversion factor for calcidiol monohydrate. EFSA J. 2023;21(8):e08145. doi:10.2903/j.efsa.2023.8145",
+    "efsa_se_ul2023": "EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for selenium. EFSA J. 2023;21(1):e07704. doi:10.2903/j.efsa.2023.7704",
+    "efsa_folate_ul2023": "EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for folate. EFSA J. 2023;21(11):e08353. doi:10.2903/j.efsa.2023.8353",
+    "efsa_n3_ul2012": "EFSA NDA Panel. Scientific Opinion on the Tolerable Upper Intake Level of eicosapentaenoic acid (EPA), docosahexaenoic acid (DHA) and docosapentaenoic acid (DPA). EFSA J. 2012;10(7):2815. doi:10.2903/j.efsa.2012.2815",
+    "maughan2018": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+    "sim2019": "Sim M, Garvican-Lewis LA, Cox GR, et al. Iron considerations for the athlete: a narrative review. Eur J Appl Physiol. 2019;119(7):1463–1478. doi:10.1007/s00421-019-04157-y",
+    "stoffel2017": "Stoffel NU, Cercamondi CI, Brittenham G, et al. Iron absorption from oral iron supplements given on consecutive versus alternate days and as single morning doses versus twice-daily split dosing in iron-depleted women: two open-label, randomised controlled trials. Lancet Haematol. 2017;4(11):e524–e533. doi:10.1016/S2352-3026(17)30182-5",
+    "stoffel2020": "Stoffel NU, Zeder C, Brittenham GM, Moretti D, Zimmermann MB. Iron absorption from supplements is greater with alternate day than with consecutive day dosing in iron-deficient anemic women. Haematologica. 2020;105(5):1232–1239. doi:10.3324/haematol.2019.220830",
+    "peeling2023": "Peeling P, Sim M, McKay AKA. Considerations for the consumption of vitamin and mineral supplements in athlete populations. Sports Med. 2023;53(Suppl 1):15–24. doi:10.1007/s40279-023-01875-4",
+    "owens2018": "Owens DJ, Allison R, Close GL. Vitamin D and the athlete: current perspectives and new challenges. Sports Med. 2018;48(Suppl 1):3–16. doi:10.1007/s40279-017-0841-9",
+    "mountjoy2023": "Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). Br J Sports Med. 2023;57(17):1073–1097. doi:10.1136/bjsports-2023-106994",
+    "nebl2019": "Nebl J, Schuchardt JP, Wasserfurth P, et al. Characterization, dietary habits and nutritional intake of omnivorous, lacto-ovo vegetarian and vegan runners – a pilot study. BMC Nutr. 2019;5:51. doi:10.1186/s40795-019-0313-8",
+    "herrmann2008": "Herrmann W, Obeid R. Causes and early diagnosis of vitamin B12 deficiency. Dtsch Arztebl Int. 2008;105(40):680–685. doi:10.3238/arztebl.2008.0680",
+    "garrison2020": "Garrison SR, Korownyk CS, Kolber MR, et al. Magnesium for skeletal muscle cramps. Cochrane Database Syst Rev. 2020;9:CD009402. doi:10.1002/14651858.CD009402.pub3",
+    "philpott2019": "Philpott JD, Witard OC, Galloway SDR. Applications of omega-3 polyunsaturated fatty acid supplementation for sport performance. Res Sports Med. 2019;27(2):219–237. doi:10.1080/15438627.2018.1550401",
+    "harris2004": "Harris WS, von Schacky C. The Omega-3 Index: a new risk factor for death from coronary heart disease? Prev Med. 2004;39(1):212–220. doi:10.1016/j.ypmed.2004.02.030",
+    "craddock2017": "Craddock JC, Neale EP, Probst YC, Peoples GE. Algal supplementation of vegetarian eating patterns improves plasma and serum docosahexaenoic acid concentrations and omega-3 indices: a systematic literature review. J Hum Nutr Diet. 2017;30(6):693–699. doi:10.1111/jhn.12474",
+    "baker2017": "Baker LB. Sweating rate and sweat sodium concentration in athletes: a review of methodology and intra/interindividual variability. Sports Med. 2017;47(Suppl 1):111–128. doi:10.1007/s40279-017-0691-5",
+    "mccubbin2020": "McCubbin AJ, Allanson BA, Caldwell Odgers JN, et al. Sports Dietitians Australia position statement: nutrition for exercise in hot environments. Int J Sport Nutr Exerc Metab. 2020;30(1):83–98. doi:10.1123/ijsnem.2019-0300"
+  },
+  "items": [
+    {
+      "id": "vitamin_d",
+      "name": "Vitamin D",
+      "why": "Vitamin D kann Muskelregeneration und Infektrisiko beeinflussen; niedrige 25(OH)D-Werte sind mit mehr Stressfrakturen assoziiert. In Deutschland reicht die Sonne von Oktober bis März nicht für eine ausreichende Bildung. Wer sich kaum oder gar nicht im Freien aufhält (z. B. viel drinnen, Schichtdienst), zählt laut DGE zu den Risikogruppen.",
+      "who": [
+        "all",
+        "winter",
+        "indoor",
+        "night_shift"
+      ],
+      "months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "food": [
+        "Fettfische (Lachs, Hering, Makrele)",
+        "in deutlich geringerem Maß Leber, mit Vitamin D angereicherte Margarine, Eigelb, einige Speisepilze",
+        "Hinweis: Über die übliche Ernährung kommen nur 2–4 µg/Tag zusammen"
+      ],
+      "lab": {
+        "test": "25(OH)D im Serum",
+        "when": "Nur bei begründetem Verdacht oder als Risikoperson (DGE), z. B. nach Stressfraktur oder bei kaum Aufenthalt im Freien; ein Routine-Screening ohne Beschwerden ist laut Owens 2018 möglicherweise unnötig.",
+        "targets": "≥ 50 nmol/l (20 ng/ml) erwünscht, < 30 nmol/l (12 ng/ml) Mangel (DGE). In der Sportliteratur gilt > 75 nmol/l als Grenze zur Suffizienz; Dosen, die deutlich darüber führen, bringen keinen ergogenen Effekt; > 180 nmol/l potenziell toxisch (Owens 2018)."
+      },
+      "supplement": "Bei fehlender Eigensynthese 20 µg (800 IE)/Tag (DGE). Der IOC-Konsens nennt für die Allgemeinbevölkerung 800 bzw. 1000–2000 IE/Tag zum Erhalt des Status; höhere Kurzzeitdosen nur zur Korrektur eines Mangels und unter Kontrolle. Obergrenze 100 µg (4000 IE)/Tag (EFSA 2023). Hohe Einzeldosen im Abstand von Tagen oder Wochen bergen laut BfR (2025) Risiken.",
+      "src": [
+        "dge",
+        "dge_faq",
+        "owens2018",
+        "maughan2018",
+        "peeling2023",
+        "efsa_vitd_ul2023",
+        "efsa_ul2025"
+      ],
+      "refs": [
+        {
+          "cite": "DGE FAQ Vitamin D",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-d/",
+          "quote": "die Sonnenbestrahlung in Deutschland in den Monaten von Oktober bis März nicht stark genug, um eine ausreichende Vitamin-D-Bildung zu gewährleisten",
+          "claim": "Keine ausreichende Eigensynthese Oktober–März → months 10–3"
+        },
+        {
+          "cite": "DGE FAQ Vitamin D",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-d/",
+          "quote": "Zu den Risikogruppen für eine Unterversorgung gehören Menschen, die sich kaum oder gar nicht im Freien aufhalten (können)",
+          "claim": "Risikogruppe: wenig Aufenthalt im Freien"
+        },
+        {
+          "cite": "DGE Referenzwert Vitamin D",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/vitamin-d/",
+          "quote": "25(OH)D-Serumkonzentration von mindestens 50 nmol/l) bei fehlender endogener Synthese sicherzustellen. Hierfür werden 20 µg/Tag benötigt.",
+          "claim": "Zielwert ≥ 50 nmol/l und 20 µg/Tag"
+        },
+        {
+          "cite": "DGE Referenzwert Vitamin D",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/vitamin-d/",
+          "quote": "(1 bis 2 µg pro Tag bei Kindern, 2 bis 4 µg pro Tag bei Jugendlichen und Erwachsenen) reicht nicht aus",
+          "claim": "Nahrung liefert nur 2–4 µg/Tag"
+        },
+        {
+          "cite": "DGE FAQ Vitamin D",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-d/",
+          "quote": "Von einem Vitamin-D-Mangel spricht man bei Serumkonzentrationen des Markers 25-Hydroxyvitamin-D unterhalb von 30 Nanomol pro Liter Serum (30 nmol/l).",
+          "claim": "Mangel < 30 nmol/l"
+        },
+        {
+          "cite": "DGE FAQ Vitamin D",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-d/",
+          "quote": "sollte die Bestimmung der Vitamin-D-Versorgung nur bei begründetem Verdacht auf eine Mangelsituation oder bei Risikopersonen erfolgen",
+          "claim": "Labor nur bei Verdacht/Risiko"
+        },
+        {
+          "cite": "DGE FAQ Vitamin D",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-d/",
+          "quote": "Es gibt nur wenige Lebensmittel, meist tierischer Herkunft, die Vitamin D in nennenswerten Mengen enthalten. Dazu gehören insbesondere Fettfische (z. B. Lachs, Hering, Makrele)",
+          "claim": "Lebensmittelquellen"
+        },
+        {
+          "cite": "Owens 2018",
+          "url": "https://doi.org/10.1007/s40279-017-0841-9",
+          "quote": "no ergogenic effect of providing doses … that would elevate 25[OH]D concentrations far above the cut-off for sufficiency (> 75 nmol·l −1 )",
+          "claim": "Sport-Cut-off > 75 nmol/l, kein Zusatznutzen deutlich darüber"
+        },
+        {
+          "cite": "Owens 2018",
+          "url": "https://doi.org/10.1007/s40279-017-0841-9",
+          "quote": "It has been argued that toxic effects only occur when serum 25[OH]D concentrations are greater than 180 nmol·l -1",
+          "claim": "Toxizität > 180 nmol/l"
+        },
+        {
+          "cite": "Owens 2018",
+          "url": "https://doi.org/10.1007/s40279-017-0841-9",
+          "quote": "In the absence of any pathology, screening may be unnecessary and could result in incorrect supplementation.",
+          "claim": "Routine-Screening ggf. unnötig"
+        },
+        {
+          "cite": "Owens 2018",
+          "url": "https://doi.org/10.1007/s40279-017-0841-9",
+          "quote": "Vitamin D may interact with extra-skeletal tissues such as muscle and the immune system to modulate recovery from damaging exercise and infection risk.",
+          "claim": "Muskelregeneration, Infektrisiko"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "report that low 25[OH]D (< 30 ng/mL) is associated with greater risk for stress fractures",
+          "claim": "Assoziation niedriger Status – Stressfrakturen"
+        },
+        {
+          "cite": "Maughan 2018 (IOC)",
+          "url": "https://doi.org/10.1136/bjsports-2018-099027",
+          "quote": "Supplementation of between 800 IU and 1000–2000 IU/day is recommended to maintain status for the general population.",
+          "claim": "800 bzw. 1000–2000 IE/Tag"
+        },
+        {
+          "cite": "Maughan 2018 (IOC)",
+          "url": "https://doi.org/10.1136/bjsports-2018-099027",
+          "quote": "Short-term, high-dose supplementation which includes 50 000 IU/week for 8–16 weeks or 10 000 IU/day for several weeks may be appropriate",
+          "claim": "Hochdosis nur kurzfristig zur Korrektur, mit Monitoring"
+        },
+        {
+          "cite": "EFSA 2023 Vitamin-D-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.8145",
+          "quote": "A UL of 100 μg vitamin D equivalents (VDE)/day is established for adults",
+          "claim": "Obergrenze 100 µg/Tag"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "1 μg VDE = 1 μg cholecalciferol (vitamin D3) = 1 μg ergocalciferol (vitamin D2) = 0.4 μg calcidiol monohydrate = 40 IU.",
+          "claim": "Umrechnung 20 µg = 800 IE, 100 µg = 4000 IE"
+        },
+        {
+          "cite": "DGE Referenzwert Vitamin D (Verweis auf BfR-Stellungnahme 031/2025)",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/vitamin-d/",
+          "quote": "Einnahme hoher Einzeldosen Vitamin D über Nahrungsergänzungsmittel im Abstand von Tagen oder Wochen birgt gesundheitliche Risiken",
+          "claim": "Keine Bolus-Einzeldosen"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "iron",
+      "name": "Eisen",
+      "why": "Ausdauersport kann Eisen über Hämolyse (Fußaufsatz), Hämaturie, Magen-Darm-Blutungen und Schweiß kosten; nach Belastung hemmt das für 3–6 h erhöhte Hepcidin die Aufnahme. Etwa 5–11 % der männlichen Athleten haben einen Eisenmangel. Ob ein Mangel ohne Anämie (Stadium 1–2) die Leistung mindert, ist uneinheitlich belegt; eine Eisenmangelanämie (Stadium 3) beeinträchtigt die aerobe Leistung deutlich.",
+      "who": [
+        "endurance",
+        "high_volume",
+        "vegan",
+        "vegetarian",
+        "low_meat",
+        "female"
+      ],
+      "food": [
+        "Fleisch (Häm-Eisen, besser verwertbar als pflanzliches Eisen)",
+        "Vollkornprodukte, Hülsenfrüchte, Gemüse",
+        "Nüsse und Samen",
+        "Vitamin C zur Mahlzeit fördert die Aufnahme; Kaffee/schwarzer Tee (Polyphenole), Phytat und Calcium hemmen sie"
+      ],
+      "lab": {
+        "test": "Mindestens Ferritin, Hämoglobin, Transferrinsättigung (TSAT); wünschenswert zusätzlich löslicher Transferrinrezeptor und CRP",
+        "when": "Ohne Vorgeschichte jährlich; bei Risiko (hohe Umfänge, vegetarisch/vegan, anhaltende Müdigkeit, früherer Mangel) halb- bis vierteljährlich; 3–6 Wochen vor Höhentraining. Morgens nüchtern, ausgeruht (≥ 24 h nach Training, 2–3 Tage ohne muskelschädigende Belastung), nicht krank – Ferritin steigt bei Entzündung und nach intensiver Belastung.",
+        "targets": "Stadium 1: Ferritin < 35 µg/l (Hb > 115 g/l, TSAT > 16 %); Stadium 2: Ferritin < 20 µg/l, TSAT < 16 %; Stadium 3: Ferritin < 12 µg/l, Hb < 115 g/l, TSAT < 16 % (Peeling 2007, zitiert in Sim 2019). Einen festen Ziel-Ferritinwert nennt Sim 2019 nicht."
+      },
+      "supplement": "Nur bei laborbestätigtem Mangel und ärztlich gesteuert. In Athletenstudien ~100 mg/Tag über 8–12 Wochen; Einnahme jeden zweiten Tag erhöht die Aufnahme pro Dosis (Studien an Frauen: Stoffel 2017 mit 60 mg, Stoffel 2020 mit 100–200 mg, jeweils morgens). Mit Vitamin C, nicht zusammen mit Calcium. Hochdosierte Präparate nicht ohne Mangel (IOC). EFSA (2024): sichere Gesamtzufuhr für Erwachsene 40 mg/Tag. DGE-Referenz Männer 11 mg/Tag.",
+      "src": [
+        "sim2019",
+        "stoffel2017",
+        "stoffel2020",
+        "maughan2018",
+        "peeling2023",
+        "dge",
+        "efsa_ul2025",
+        "klug2024"
+      ],
+      "refs": [
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "Stage 1 - Iron deficiency (ID): Iron stores … are depleted (ferritin <35 μg/L, Hb >115 g/L, transferrin saturation >16%).",
+          "claim": "Stadium 1"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "Stage 2 - Iron-deficient non-anemia (IDNA): … (ferritin <20 μg/L, Hb >115 g/L, transferrin saturation <16%).",
+          "claim": "Stadium 2"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "Stage 3 - Iron-deficient anemia (IDA): Hb production falls, resulting in anemia (ferritin <12 μg/L, Hb <115 g/L, transferrin saturation < 16%).",
+          "claim": "Stadium 3 (korrigiert: Ferritin < 12, Hb < 115)"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "evidence for the negative influence that IDNA (Stage 1 and 2) has on endurance performance is also equivocal",
+          "claim": "Leistungseffekt ohne Anämie uneinheitlich"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "hemolysis exacerbated by ground impact forces (e.g. foot strike…), hematuria, gastro-intestinal (GI) bleeding, sweating, and inflammatory/iron regulatory hormone (hepcidin) responses",
+          "claim": "Verlustwege"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "exercise has a transient impact on increasing levels of the master iron regulatory hormone, hepcidin (for 3-6 h post-exercise)",
+          "claim": "Hepcidin 3–6 h"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "approximately 5-11% of male athlete cohorts also present with this issue",
+          "claim": "Prävalenz Männer"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "blood screening for such purposes should be collected in the morning, with the athlete in a rested (i.e. 24+ h post-training) and hydrated state",
+          "claim": "Abnahmebedingungen"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "its role as an acute phase protein, and … ferritin levels are increased during periods of inflammation and after intensive exercise",
+          "claim": "Ferritin als Akute-Phase-Protein"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "should be performed (i) annually for athletes with no symptoms (or history of ID), or (ii) quarterly (or at least biannually) for 'at risk' individuals",
+          "claim": "Screening-Frequenz"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "Blood screening should be performed three-to six weeks before exposure",
+          "claim": "Vor Höhentraining"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "positive (40-80% increases to ferritin) when consumed over an 8-12 week time frame, utilising doses of ~100 mg per day",
+          "claim": "~100 mg/Tag über 8–12 Wochen"
+        },
+        {
+          "cite": "Sim 2019",
+          "url": "https://doi.org/10.1007/s00421-019-04157-y",
+          "quote": "polyphenols, phytates, or calcium, that are part of tea, coffee, whole grains, legumes and dairy products, can decrease the amount of non-heme iron absorbed",
+          "claim": "Hemmstoffe (keine feste Stundenfrist belegt)"
+        },
+        {
+          "cite": "Stoffel 2017",
+          "url": "https://doi.org/10.1016/S2352-3026(17)30182-5",
+          "quote": "Providing iron supplements on alternate days and in single doses optimises iron absorption and might be a preferable dosing regimen.",
+          "claim": "Jeden 2. Tag, Einzeldosis (60 mg in Studie 1)"
+        },
+        {
+          "cite": "Stoffel 2020",
+          "url": "https://doi.org/10.3324/haematol.2019.220830",
+          "quote": "Alternate day dosing of oral iron supplements in anemic women may be preferable because it sharply increases FIA.",
+          "claim": "Alternierend bei Anämie (100/200 mg, 8 Uhr)"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "co-consumption of iron and calcium can decrease the absorption of iron, whereas co-consumption of iron and vitamin C can enhance the effect",
+          "claim": "Vitamin C ja, Calcium nein"
+        },
+        {
+          "cite": "Maughan 2018 (IOC)",
+          "url": "https://doi.org/10.1136/bjsports-2018-099027",
+          "quote": "High-dose iron supplements, however, should not be taken unless iron deficiency is present.",
+          "claim": "Kein Hochdosis-Eisen ohne Mangel"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Iron mg/d … 40 … (EFSA NDA Panel, 2024b)",
+          "claim": "Sichere Zufuhr Erwachsene 40 mg/Tag (Tabelle 2, safe level)"
+        },
+        {
+          "cite": "DGE Referenzwert Eisen",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/eisen/",
+          "quote": "Vollkornprodukte, Fleisch, Wurstwaren, Gemüse und Hülsenfrüchte sind die Hauptlieferanten für die Eisenzufuhr.",
+          "claim": "Lebensmittel; Referenz Männer 11 mg/Tag (Stand 2023)"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "the more frequent occurrence of a lower iron status (as measured by plasma or serum ferritin), ferritin deficiency (<15 µg/L) and anaemia",
+          "claim": "Vegetarisch/vegan: häufiger niedriger Eisenstatus"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "vitamin_b12",
+      "name": "Vitamin B12 (Cobalamin)",
+      "why": "Wichtig für Blutbildung und Nervenzellen. Pflanzliche Lebensmittel liefern kein nennenswertes bioverfügbares B12 – bei veganer Ernährung ist ein Präparat Pflicht. Nach zuvor guter Versorgung reichen die Körperspeicher lange, Mangelsymptome zeigen sich oft erst nach Jahren; ein erniedrigtes Holo-TC ist der früheste Labormarker, oft bevor Blutbild oder Klinik auffallen.",
+      "who": [
+        "vegan",
+        "vegetarian"
+      ],
+      "food": [
+        "Fisch, Leber, rotes Fleisch, Eier, Geflügel",
+        "Milch, Käse, Joghurt"
+      ],
+      "lab": {
+        "test": "Status: Holo-Transcobalamin (Holo-TC) oder Gesamt-B12; zusätzlich ein Funktionsmarker: Methylmalonsäure (MMA) oder Homocystein (DGE)",
+        "when": "Bei veganer Ernährung regelmäßig (DGE); Risikogruppen laut Herrmann & Obeid alle 2–3 Jahre; bei Symptomen.",
+        "targets": "Holo-TC < 35 pmol/l erniedrigt, MMA > 300 nmol/l erhöht (Herrmann & Obeid 2008); laborindividuelle Referenzbereiche beachten."
+      },
+      "supplement": "Vegan: dauerhaft und zuverlässig ein B12-Präparat (DGE, Klug 2024). Referenzwert 4,0 µg/Tag (DGE). Orale Präparate mit 10–500 µg verbesserten bei Vegetariern MMA und Holo-TC (Herrmann & Obeid 2008) – Dosierung nach Präparat bzw. ärztlich. Auch Vegetarier haben teils eine zu geringe Zufuhr. EU-Obergrenze: keine definierten Nebenwirkungen (SCF).",
+      "src": [
+        "klug2024",
+        "dge",
+        "dge_faq",
+        "herrmann2008",
+        "nebl2019",
+        "efsa_ul2025"
+      ],
+      "refs": [
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "Since plant-based foods do not contain significant amounts of bioavailable vitamin B12, people following a vegan diet need to rely on supplements",
+          "claim": "Vegan: Präparat nötig"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "People following a vegan diet must supplement with vitamin B12. … As clinical deficiency symptoms often only develop after several years",
+          "claim": "Symptome erst nach Jahren; regelmäßig prüfen"
+        },
+        {
+          "cite": "DGE FAQ Vitamin B12",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-b12/",
+          "quote": "Sich vegan ernährende Personen sollten daher unbedingt und dauerhaft ein Vitamin-B12-Präparat einnehmen. Auch Vegetarier weisen teilweise eine zu geringe Zufuhr an Vitamin B12 auf.",
+          "claim": "Vegan dauerhaft; Vegetarier teils zu gering"
+        },
+        {
+          "cite": "DGE FAQ Vitamin B12",
+          "url": "https://www.dge.de/gesunde-ernaehrung/faq/vitamin-b12/",
+          "quote": "die beiden Statusparameter Gesamt-Vitamin B12 und Holo-TC … sowie die Funktionsparameter Methylmalonsäure (MMA) und Homocystein im Serum",
+          "claim": "Labormarker"
+        },
+        {
+          "cite": "DGE Referenzwert Vitamin B12",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/vitamin-b12/",
+          "quote": "19 bis unter 25 Jahre 4,0 25 bis unter 51 Jahre 4,0 51 bis unter 65 Jahre 4,0",
+          "claim": "Referenzwert Erwachsene 4,0 µg/Tag (Stand 2018)"
+        },
+        {
+          "cite": "Herrmann & Obeid 2008",
+          "url": "https://doi.org/10.3238/arztebl.2008.0680",
+          "quote": "raised concentrations of MMA (>300 nmol/L) and lowered concentrations of holoTC (<35 pmol/L), owing to intracellular, metabolically manifest (functional) vitamin B12 deficiency",
+          "claim": "Cut-offs (Graubereich 35–50 entfernt, nicht belegt)"
+        },
+        {
+          "cite": "Herrmann & Obeid 2008",
+          "url": "https://doi.org/10.3238/arztebl.2008.0680",
+          "quote": "A lowered serum holoTC concentration is the earliest marker of vitamin B12 deficiency … At this stage, clinical or hematological symptoms might not yet be present.",
+          "claim": "Holo-TC frühester Marker"
+        },
+        {
+          "cite": "Herrmann & Obeid 2008",
+          "url": "https://doi.org/10.3238/arztebl.2008.0680",
+          "quote": "Vegetarians and older persons receiving oral vitamin B12 supplementation (10 to 500 µg) have been shown to have lower concentrations of MMA and higher holoTC",
+          "claim": "Orale Dosen 10–500 µg wirksam"
+        },
+        {
+          "cite": "Herrmann & Obeid 2008",
+          "url": "https://doi.org/10.3238/arztebl.2008.0680",
+          "quote": "those at risk should have their B12 status checked regularly, every two to three years",
+          "claim": "Kontrollintervall Risikogruppen"
+        },
+        {
+          "cite": "Herrmann & Obeid 2008",
+          "url": "https://doi.org/10.3238/arztebl.2008.0680",
+          "quote": "The vitamin is crucially involved in the proliferation, maturation, and regeneration of neural cells.",
+          "claim": "Nervensystem"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "Vitamin B12 … Fish, liver, red meat, eggs, poultry, milk, cheese, yoghurt",
+          "claim": "Lebensmittel"
+        },
+        {
+          "cite": "Nebl 2019",
+          "url": "https://doi.org/10.1186/s40795-019-0313-8",
+          "quote": "The supply of micronutrients, such as vitamin D and cobalamin, was dependent on supplement intake.",
+          "claim": "Läufer: B12-Versorgung hängt an Präparaten"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Vitamin B12 No defined adverse effects (SCF, 2000c)",
+          "claim": "Keine UL"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "iodine",
+      "name": "Jod",
+      "why": "Bestandteil der Schilddrüsenhormone und damit u. a. am Energiestoffwechsel und an der Regulation der Körpertemperatur beteiligt. Jod gilt in der deutschen Allgemeinbevölkerung unabhängig von der Ernährungsform als kritisch; bei veganer Ernährung ist die Versorgung noch schlechter.",
+      "who": [
+        "all",
+        "vegan"
+      ],
+      "food": [
+        "Seefisch und andere maritime Lebensmittel",
+        "Milch und Eier (je nach Fütterung der Tiere)",
+        "Jodsalz – auch in Brot, Wurst, Käse und in der Außer-Haus-Verpflegung",
+        "Jodangereicherte Pflanzendrinks (vegan)",
+        "Algen nur mit deklariertem, moderatem Jodgehalt (sonst Überdosierungsgefahr)"
+      ],
+      "lab": {
+        "test": "Keine Routine-Einzelmessung in den Quellen beschrieben; Jod im Spontanurin wird in Studien zur Beurteilung der Versorgung von Gruppen genutzt (WHO-Grenze 100 µg/l)",
+        "when": "Bei Schilddrüsenerkrankung oder vor einer Jod-Supplementierung ärztlich abklären."
+      },
+      "supplement": "Empfohlen 150 µg/Tag für Erwachsene (DGE, Stand 2025). Jodsalz allein reicht bei veganer Ernährung nicht: bei zu wenig jodreichen Lebensmitteln 100 µg/Tag nach ärztlicher Rücksprache (Klug 2024; entspricht der BfR-Höchstmenge für Supplemente). Obergrenze 600 µg/Tag (SCF/EFSA); Algen können > 500 µg/Tag liefern.",
+      "src": [
+        "dge",
+        "klug2024",
+        "efsa_ul2025",
+        "scf_ul2006",
+        "maughan2018"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Jod",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/jod/",
+          "quote": "Erwachsene 19 bis unter 25 Jahre 150 25 bis unter 51 Jahre 150 51 bis unter 65 Jahre 150",
+          "claim": "Korrigiert: 150 µg/Tag (statt 150–200), Stand Ableitung 2025"
+        },
+        {
+          "cite": "DGE Referenzwert Jod",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/jod/",
+          "quote": "Jod ist als wichtiger Bestandteil der Schilddrüsenhormone an vielen Stoffwechselprozessen, wie am Energiestoffwechsel, der Regulation der Körpertemperatur",
+          "claim": "Funktion"
+        },
+        {
+          "cite": "DGE Referenzwert Jod",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/jod/",
+          "quote": "Die besten Jodquellen sind Seefisch oder andere maritime Lebensmittel. Milch und Eier sind bei entsprechender Fütterung der Tiere ebenfalls jodreich.",
+          "claim": "Lebensmittel"
+        },
+        {
+          "cite": "DGE Referenzwert Jod",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/jod/",
+          "quote": "jodiertes Speisesalz in der Küche, bei verarbeiteten Lebensmitteln (wie Brot, Wurstwaren, Käse, etc.) und in der Außer-Haus-Verpflegung verwendet wird",
+          "claim": "Jodsalz"
+        },
+        {
+          "cite": "DGE Referenzwert Jod",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/jod/",
+          "quote": "Bei Schilddrüsenerkrankungen sollte vor der Supplementation eine ärztliche Rücksprache erfolgen.",
+          "claim": "Schilddrüse: ärztlich abklären"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "Iodine is considered critical in the German general population, regardless of diet. However, … the iodine supply in vegan diets is even more inadequate",
+          "claim": "Jod kritisch; vegan noch schlechter"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "If insufficient iodine-rich foods are consumed, adults should take a daily iodine supplement of 100 µg in consultation with a physician.",
+          "claim": "100 µg/Tag vegan"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "This dosage complies with the maximum recommended daily intake for food supplements issued by the Federal Institute for Risk Assessment",
+          "claim": "BfR-Höchstmenge"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "algae and algae preparations without labelled iodine content are not recommended … The use of iodised salt alone is insufficient.",
+          "claim": "Algen/Jodsalz"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "Algae can lead to an excessive iodine intake (> 500 µg per day) due to their highly variable iodine content",
+          "claim": "Algen-Überdosierung"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "In the NuEva study, average urinary iodine excretion was less than 100 µg/L for all diets",
+          "claim": "Urin-Jod in Studien (Gruppenebene)"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Iodine µg/d 200 250 300 450 500 600 600 600 (SCF, 2003b)",
+          "claim": "Obergrenze Erwachsene 600 µg/Tag"
+        },
+        {
+          "cite": "Maughan 2018 (IOC)",
+          "url": "https://doi.org/10.1136/bjsports-2018-099027",
+          "quote": "Iodine (for those living in areas with low levels of iodine in foods or not using iodised salt)",
+          "claim": "Supplement ggf. sinnvoll ohne Jodsalz"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "calcium",
+      "name": "Calcium",
+      "why": "Baustein von Knochen und Zähnen; bei zu geringer Zufuhr wird Calcium dem Knochen entzogen. Vegane Ernährung geht tendenziell mit niedrigerer Calciumzufuhr und höherem Frakturrisiko einher. Niedrige Energieverfügbarkeit (REDs) betrifft auch Männer; für diese Athleten nennt der IOC-Konsens eine höhere Calcium- und Vitamin-D-Zufuhr zum Schutz der Knochen.",
+      "who": [
+        "endurance",
+        "vegan",
+        "high_volume"
+      ],
+      "food": [
+        "Milch und Milchprodukte",
+        "Grüne Gemüse wie Brokkoli, Grünkohl, Rucola",
+        "Samen und Nüsse",
+        "Calciumreiches Mineralwasser (> 150 mg/l)",
+        "Bei Pflanzendrinks auf Calcium-Anreicherung achten"
+      ],
+      "lab": {
+        "test": "Kein geeigneter Laborindikator für den Calciumstatus; eine Knochendichtemessung kann auf chronisch niedrige Zufuhr hinweisen – Vitamin-D-Status und Energieverfügbarkeit mitbeurteilen",
+        "when": "Bei Knochenstressverletzung oder Verdacht auf REDs/geringe Energieverfügbarkeit."
+      },
+      "supplement": "Empfohlen 1000 mg/Tag (DGE), primär über Lebensmittel. Bei niedriger Energieverfügbarkeit oder Zyklusstörungen nennt der IOC-Konsens 1500 mg Calcium plus 1500–2000 IE Vitamin D pro Tag. Obergrenze 2500 mg/Tag (EFSA). Calcium hemmt die Eisenaufnahme – nicht gleichzeitig mit Eisenpräparaten.",
+      "src": [
+        "dge",
+        "maughan2018",
+        "klug2024",
+        "mountjoy2023",
+        "efsa_ul2025",
+        "peeling2023"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Calcium",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/calcium/",
+          "quote": "Die besten Calciumquellen sind Milch und Milchprodukte. Gute Calciumlieferanten sind zudem grüne Gemüsearten wie Brokkoli, Grünkohl und Rucola sowie Samen und Nüsse.",
+          "claim": "Lebensmittel"
+        },
+        {
+          "cite": "DGE Referenzwert Calcium",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/calcium/",
+          "quote": "Auch calciumreiches Mineralwasser (> 150 mg/l) kann bedeutend für die Calciumversorgung sein.",
+          "claim": "Mineralwasser > 150 mg/l"
+        },
+        {
+          "cite": "DGE Referenzwert Calcium",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/calcium/",
+          "quote": "Bei unzureichender Calciumzufuhr wird die fehlende Menge dem Knochengewebe entzogen.",
+          "claim": "Knochen; Referenz 1000 mg/Tag (Stand 2013)"
+        },
+        {
+          "cite": "DGE-Empfehlungen",
+          "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-empfehlungen/",
+          "quote": "Werden pflanzliche Milchalternativen verwendet, ist auf die Versorgung mit Calcium, Jod, Vitamin B2 und Vitamin B12 zu achten.",
+          "claim": "Pflanzendrinks"
+        },
+        {
+          "cite": "Maughan 2018 (IOC)",
+          "url": "https://doi.org/10.1136/bjsports-2018-099027",
+          "quote": "There is no appropriate indicator of calcium status. Bone mineral density scan may be indicative of chronic low calcium intake",
+          "claim": "Kein Laborindikator"
+        },
+        {
+          "cite": "Maughan 2018 (IOC)",
+          "url": "https://doi.org/10.1136/bjsports-2018-099027",
+          "quote": "Calcium intakes of 1500 mg/day and 1500–2000 IU vitamin D are recommended to optimise bone health in athletes with low energy availability or menstrual dysfunction.",
+          "claim": "1500 mg + 1500–2000 IE bei LEA"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "calcium intake could be lower in vegan diets compared to vegetarian or omnivorous diets",
+          "claim": "Vegan: weniger Calcium"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "The greatest difference between vegan and omnivorous diets was observed in fracture incidence, with an increased relative risk with vegan diets.",
+          "claim": "Vegan: Frakturrisiko"
+        },
+        {
+          "cite": "Mountjoy 2023 (IOC REDs)",
+          "url": "https://doi.org/10.1136/bjsports-2023-106994",
+          "quote": "a syndrome of deleterious health and performance outcomes experienced by female and male athletes exposed to low energy availability",
+          "claim": "REDs betrifft auch Männer"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Calcium mg/d No adequate data to derive a UL 2500 2500 2500 (EFSA NDA Panel, 2012b)",
+          "claim": "Obergrenze 2500 mg/Tag"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "co-consumption of iron and calcium can decrease the absorption of iron",
+          "claim": "Nicht mit Eisen"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "omega3",
+      "name": "Omega-3-Fettsäuren (EPA/DHA)",
+      "why": "Omega-3-Fettsäuren wirken entzündungshemmend und verändern Zellmembranen. Es gibt Hinweise auf geringeren Sauerstoffbedarf bei Ausdauerbelastung und bessere Erholung nach exzentrischer Belastung, aber keine ausreichende Evidenz für mehr Muskelaufbau. Bei veganer Ernährung liegen EPA/DHA-Zufuhr und -Status niedriger; die körpereigene Umwandlung aus ALA reicht möglicherweise nicht aus.",
+      "who": [
+        "vegan",
+        "vegetarian",
+        "low_meat"
+      ],
+      "food": [
+        "Fisch 1–2× pro Woche, v. a. fettreicher Fisch (DGE)",
+        "Algen-DHA (vegan)",
+        "Raps- und Walnussöl (α-Linolensäure, ALA)"
+      ],
+      "lab": {
+        "test": "Omega-3-Index (EPA+DHA in Erythrozytenmembranen)",
+        "when": "Optional bei fischfreier oder veganer Ernährung.",
+        "targets": "≥ 8 % war mit dem größten, ≤ 4 % mit dem geringsten Herzschutz assoziiert (Harris & von Schacky 2004; kardiologischer Kontext, kein sportlicher Zielwert)."
+      },
+      "supplement": "Ernährungsempfehlungen für EPA+DHA aus kardiovaskulärer Sicht: 250–500 mg/Tag (EFSA 2012). Ohne Fischverzehr erhöht Algen-DHA die DHA-Spiegel und den Omega-3-Index bei Vegetariern; eine Dosis-Wirkungs-Beziehung ist nicht belegt. Keine Obergrenze ableitbar; Supplemente bis ca. 5 g/Tag EPA+DHA ohne Sicherheitsbedenken für Erwachsene (EFSA 2012).",
+      "src": [
+        "philpott2019",
+        "klug2024",
+        "efsa_n3_ul2012",
+        "harris2004",
+        "craddock2017",
+        "dge_faq",
+        "efsa_ul2025"
+      ],
+      "refs": [
+        {
+          "cite": "Philpott 2019",
+          "url": "https://doi.org/10.1080/15438627.2018.1550401",
+          "quote": "n-3PUFA's exert anti-inflammatory properties and act to change the functional capacity of the muscle cell by modifying the membrane fluidity",
+          "claim": "Wirkmechanismus"
+        },
+        {
+          "cite": "Philpott 2019",
+          "url": "https://doi.org/10.1080/15438627.2018.1550401",
+          "quote": "some scientific evidence that n-3PUFA supplementation may improve endurance capacity by reducing the oxygen cost of exercise",
+          "claim": "Ausdauer: Sauerstoffkosten"
+        },
+        {
+          "cite": "Philpott 2019",
+          "url": "https://doi.org/10.1080/15438627.2018.1550401",
+          "quote": "several studies report a benefit of n-3PUFA supplementation in promoting recovery from eccentric-based muscle damaging exercise",
+          "claim": "Erholung"
+        },
+        {
+          "cite": "Philpott 2019",
+          "url": "https://doi.org/10.1080/15438627.2018.1550401",
+          "quote": "insufficient evidence from studies in athletic populations to support the claim that n-3PUFA supplementation facilitates muscle growth during resistance training",
+          "claim": "Korrigiert: kein Beleg für Muskelaufbau"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "the endogenous conversion of α-linolenic acid to EPA and DHA might be insufficient in both vegetarian and vegan diets",
+          "claim": "ALA-Umwandlung (Prozentangabe entfernt)"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "Vegetable oils high in α-linolenic acid (canola oil and walnut oil) should be favoured",
+          "claim": "Raps-/Walnussöl"
+        },
+        {
+          "cite": "DGE-Empfehlungen",
+          "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-empfehlungen/",
+          "quote": "Essen Sie ein- bis zweimal Fisch pro Woche, am besten aus nachhaltigen Quellen.",
+          "claim": "Fisch 1–2×/Woche"
+        },
+        {
+          "cite": "DGE-Empfehlungen",
+          "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-empfehlungen/",
+          "quote": "Fettreicher Fisch liefert wertvolle Omega-3-Fettsäuren",
+          "claim": "Fettreicher Fisch"
+        },
+        {
+          "cite": "Craddock 2017",
+          "url": "https://doi.org/10.1111/jhn.12474",
+          "quote": "All included studies reported algal sources of DHA significantly improve DHA concentrations … as well as omega-3 indices, in vegetarian populations.",
+          "claim": "Algen-DHA wirksam"
+        },
+        {
+          "cite": "Craddock 2017",
+          "url": "https://doi.org/10.1111/jhn.12474",
+          "quote": "An evident time or dose response was not apparent given the small number of studies to date.",
+          "claim": "Keine belegte Dosis"
+        },
+        {
+          "cite": "Harris & von Schacky 2004",
+          "url": "https://doi.org/10.1016/j.ypmed.2004.02.030",
+          "quote": "An Omega-3 Index of > or = 8% was associated with the greatest cardioprotection, whereas an index of < or = 4% … the least.",
+          "claim": "Omega-3-Index ≥ 8 %"
+        },
+        {
+          "cite": "EFSA 2012 EPA/DHA-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2012.2815",
+          "quote": "Dietary recommendations for EPA and DHA based on cardiovascular risk considerations for European adults are between 250 and 500 mg/day.",
+          "claim": "250–500 mg/Tag"
+        },
+        {
+          "cite": "EFSA 2012 EPA/DHA-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2012.2815",
+          "quote": "Supplemental intakes of EPA and DHA combined at doses up to 5 g/day … do not raise safety concerns for adults.",
+          "claim": "Bis 5 g/Tag sicher (‚höhere Dosen ohne Nutzen‘ entfernt)"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "zinc",
+      "name": "Zink",
+      "why": "Wichtig u. a. für Nukleinsäuresynthese und Immunabwehr; ein Mangel kann Wundheilungsstörungen und höhere Infektanfälligkeit verursachen. Phytat aus Vollkorn und Hülsenfrüchten bindet Zink im Darm; Einweichen, Keimen oder Sauerteig bauen Phytat ab. Bei veganer Ernährung lag die Zinkzufuhr von Männern unter dem bioverfügbarkeitsbereinigten Bedarf; Athleten haben wegen Schweißverlusten womöglich einen höheren Bedarf.",
+      "who": [
+        "vegan",
+        "vegetarian",
+        "high_volume"
+      ],
+      "food": [
+        "Fleisch, Eier, Milchprodukte",
+        "Meeresfrüchte (Schalentiere)",
+        "Hülsenfrüchte und Vollkorn – eingeweicht, gekeimt oder als Sauerteig",
+        "Nüsse und Samen"
+      ],
+      "lab": {
+        "test": "Zink im Serum – Biomarker für den Zinkstatus gelten als suboptimal",
+        "when": "Bei Verdacht auf Mangel ärztlich abklären."
+      },
+      "supplement": "Empfohlen für Männer 11 / 14 / 16 mg/Tag bei niedriger / mittlerer / hoher Phytatzufuhr (DGE 2019). Obergrenze 25 mg/Tag Gesamtzufuhr (SCF/EFSA), abgeleitet aus Effekten auf den Kupferstatus. Supplement nur bei Mangel.",
+      "src": [
+        "dge",
+        "klug2024",
+        "peeling2023",
+        "efsa_ul2025",
+        "scf_ul2006"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Zink",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/zink/",
+          "quote": "Ein Zinkmangel kann … Wundheilungsstörungen, … sowie eine höhere Anfälligkeit für Infektionskrankheiten hervorrufen.",
+          "claim": "Mangelfolgen"
+        },
+        {
+          "cite": "DGE Referenzwert Zink",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/zink/",
+          "quote": "Gute Zinklieferanten sind: Fleisch, Eier, Milch(-produkte) sowie Hülsenfrüchte, Vollkornprodukte sowie Nüsse.",
+          "claim": "Lebensmittel"
+        },
+        {
+          "cite": "DGE Referenzwert Zink",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/zink/",
+          "quote": "Durch Zubereitungsmethoden wie Einweichen, Keimung oder Sauerteiggärung kann Phytat abgebaut und die Bioverfügbarkeit von Zink erhöht werden.",
+          "claim": "Phytatabbau"
+        },
+        {
+          "cite": "DGE Referenzwert Zink",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/zink/",
+          "quote": "Er­wach­se­ne 19 bis un­ter 25 Jah­re 11 14 16 7 8 10 25 bis un­ter 51 Jah­re 11 14 16",
+          "claim": "Referenzwerte Männer (Spalten m: niedrig/mittel/hoch Phytat), Stand 2019"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "Zinc is reported to play an important role in nucleotide and nucleic acid synthesis, whilst also acting as an antiviral agent",
+          "claim": "Funktion"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "the zinc requirements of athletes are likely higher than the general population, possibly due to sweat losses",
+          "claim": "Schweißverluste (als Möglichkeit)"
+        },
+        {
+          "cite": "Peeling 2023",
+          "url": "https://doi.org/10.1007/s40279-023-01875-4",
+          "quote": "Zinc 14 mg 8 mg 9–16 µmol/L Shellfish, beef, chicken, legumes, nuts, seeds",
+          "claim": "Meeresfrüchte, Samen"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "with the exception of vitamin D and, in men, the bioavailability-adjusted EAR for zinc",
+          "claim": "Vegane Männer: Zink unter EAR"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "some used markers are suboptimal, e.g. vitamin B12, zinc, calcium or vitamin A",
+          "claim": "Biomarker suboptimal"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Zinc mg/d 7 10 13 18 22 25 25 25 (SCF, 2002c)",
+          "claim": "Obergrenze 25 mg/Tag"
+        },
+        {
+          "cite": "SCF 2002 Zink (EFSA 2006)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/efsa_rep/blobserver_assets/ndatolerableuil.pdf",
+          "quote": "A NOAEL of 50 mg/day is based on the absence of any adverse effects on … indicators of copper status (as the critical endpoint)",
+          "claim": "UL-Begründung Kupferstatus"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "magnesium",
+      "name": "Magnesium",
+      "why": "Cofaktor von mehr als 600 Enzymen; reguliert u. a. Reizübertragung, Muskelkontraktion und Herzrhythmus. Bei üblicher Ernährung ist ein Mangel selten. Mythos-Check Krämpfe: Bei (meist älteren) Erwachsenen mit Wadenkrämpfen brachte Magnesium keinen klinisch relevanten Nutzen; zu belastungsassoziierten Krämpfen gibt es keine RCTs (Cochrane 2020).",
+      "who": [
+        "all",
+        "high_volume"
+      ],
+      "food": [
+        "Vollkornprodukte",
+        "Hülsenfrüchte",
+        "Grünes Blattgemüse",
+        "Nüsse und Samen",
+        "Fisch und Meeresfrüchte"
+      ],
+      "supplement": "Schätzwert 350 mg/Tag für Männer (DGE 2021). Für Magnesium aus Supplementen bzw. Zusätzen gilt eine Obergrenze von 250 mg/Tag (SCF/EFSA; gilt nicht für Magnesium aus normalen Lebensmitteln); ab ca. 360 mg traten bei einem kleinen Teil leichte Durchfälle auf. Nicht als Krampfprophylaxe einsetzen – Nutzen nicht belegt.",
+      "src": [
+        "garrison2020",
+        "dge",
+        "efsa_ul2025",
+        "scf_ul2006"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Magnesium",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/magnesium/",
+          "quote": "Magnesium ist Cofaktor von mehr als 600 Enzymen … Regulator der Reizübertragung, der Muskelkontraktion, des Herzrhythmus",
+          "claim": "Funktion"
+        },
+        {
+          "cite": "DGE Referenzwert Magnesium",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/magnesium/",
+          "quote": "Gute Lieferanten für Magnesium sind Vollkornprodukte, Hülsenfrüchte, grünes Blattgemüse, Nüsse und Samen, sowie Fisch und Meeresfrüchte.",
+          "claim": "Lebensmittel (Mineralwasser entfernt, nicht belegt)"
+        },
+        {
+          "cite": "DGE Referenzwert Magnesium",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/magnesium/",
+          "quote": "Bei üblichen Ernährungs- und Lebensgewohnheiten ist ein Magnesiummangel selten. Stand Ableitung: 2021",
+          "claim": "Mangel selten; 350 mg/Tag Männer"
+        },
+        {
+          "cite": "Garrison 2020 (Cochrane)",
+          "url": "https://doi.org/10.1002/14651858.CD009402.pub3",
+          "quote": "It is unlikely that magnesium supplementation provides clinically meaningful cramp prophylaxis to older adults experiencing skeletal muscle cramps.",
+          "claim": "Kein Nutzen bei Krämpfen"
+        },
+        {
+          "cite": "Garrison 2020 (Cochrane)",
+          "url": "https://doi.org/10.1002/14651858.CD009402.pub3",
+          "quote": "We found no RCTs evaluating magnesium for exercise-associated muscle cramps",
+          "claim": "Belastungskrämpfe: keine RCTs (Ursachen-Aussage ‚neuromuskulär‘ entfernt)"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Readily dissociable Mg salts … in food supplements, water or added to foods; does not include Mg naturally present in foods and beverages.",
+          "claim": "UL 250 mg nur für Zusätze"
+        },
+        {
+          "cite": "SCF 2001 Magnesium (EFSA 2006)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/efsa_rep/blobserver_assets/ndatolerableuil.pdf",
+          "quote": "mild diarrhoea occurs in a small percentage of adult subjects at oral doses of about 360/365 mg Mg per day, hence presenting the LOAEL.",
+          "claim": "Korrigiert: Durchfall ab ~360 mg bei wenigen, nicht ‚oft > 250 mg‘"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "folate",
+      "name": "Folat",
+      "why": "Folat spielt eine Rolle bei Zellteilung, Zellwachstum und Blutbildung; bei einem Mangel sind v. a. Zellteilungs- und Wachstumsprozesse gestört.",
+      "who": [
+        "all"
+      ],
+      "food": [
+        "Grünes Blattgemüse wie Spinat und Salate",
+        "Tomaten, Hülsenfrüchte, Nüsse, Orangen, Sprossen",
+        "Vollkornprodukte, Kartoffeln",
+        "Leber, Eier"
+      ],
+      "lab": {
+        "test": "Folat im Serum/Plasma oder in Erythrozyten",
+        "when": "Bei Verdacht; zusammen mit Vitamin B12 bestimmen, da Folsäure die Blutbildveränderungen eines B12-Mangels überdecken kann."
+      },
+      "supplement": "Empfohlen 300 µg Folat-Äquivalente/Tag (DGE). Obergrenze für Folsäure aus Präparaten/Anreicherung 1000 µg/Tag (EFSA 2023, gilt nicht für natürliches Folat) – Grund: Folsäure kann die hämatologischen Zeichen eines B12-Mangels maskieren, während neurologische Symptome fortschreiten.",
+      "src": [
+        "dge",
+        "efsa_folate_ul2023",
+        "efsa_ul2025"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Folat",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/folat/",
+          "quote": "Folat spielt eine Rolle bei der Zellteilung und dem Zellwachstum und ist beteiligt bei der Blutbildung",
+          "claim": "Funktion (Satz zur megaloblastären Anämie und ‚oft unterschritten‘ entfernt)"
+        },
+        {
+          "cite": "DGE Referenzwert Folat",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/folat/",
+          "quote": "Bei einem Folatmangel sind v. a. Zellteilungs- und Wachstumsprozesse gestört.",
+          "claim": "Mangelfolgen"
+        },
+        {
+          "cite": "DGE Referenzwert Folat",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/folat/",
+          "quote": "Gute Folatlieferanten sind grünes Blattgemüse wie Spinat und Salate, Tomaten, Hülsenfrüchte, Nüsse, Orangen, Sprossen und Vollkornprodukte sowie Kartoffeln, Leber und Eier.",
+          "claim": "Lebensmittel; Referenz 300 µg FÄ/Tag (Stand 2015)"
+        },
+        {
+          "cite": "EFSA 2023 Folat-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.8353",
+          "quote": "plasma/serum/RBC folate",
+          "claim": "Biomarker Serum/Plasma/Erythrozyten"
+        },
+        {
+          "cite": "EFSA 2023 Folat-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.8353",
+          "quote": "dosages up to 1000 μg of folic acid were unlikely to cause masking of the haematological signs in PA patients",
+          "claim": "Maskierung B12-Mangel; UL 1000 µg"
+        },
+        {
+          "cite": "EFSA 2023 Folat-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.8353",
+          "quote": "The risk of progression of neurological symptoms in cobalamin-deficient patients is considered as the critical effect to establish an UL for folic acid.",
+          "claim": "Neurologische Progression"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "ULs apply to the combined intake of folic acid … added to foods or used in food supplements … do not include folate naturally present in foods",
+          "claim": "UL nur für zugesetzte Folsäure"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "selenium",
+      "name": "Selen",
+      "why": "Selen schützt vor Zellschädigung durch freie Radikale und ist an der Regulation der Schilddrüsenhormone beteiligt. Der Selengehalt pflanzlicher Lebensmittel hängt vom Selengehalt der Böden ab und schwankt stark; eine Unterversorgung ist in Europa selten, bei veganer Ernährung gilt Selen aber als potenziell kritisch.",
+      "who": [
+        "vegan",
+        "vegetarian"
+      ],
+      "food": [
+        "Fleisch, Fisch, Eier",
+        "Kohl- und Zwiebelgemüse, Pilze, Spargel, Hülsenfrüchte",
+        "Paranüsse: sehr selenreich, aber höchstens 2 Stück/Tag (reichern radioaktives Radium an)"
+      ],
+      "supplement": "Schätzwert 70 µg/Tag (DGE; EFSA-AI ebenfalls 70 µg). Obergrenze 255 µg/Tag (EFSA 2023; kritischer Effekt Haarausfall). Paranüsse: bis zu 400 µg pro Nuss möglich – regelmäßige Paranuss-Esser und Nutzer hochdosierter Präparate können die Obergrenze überschreiten; Paranüsse nicht zusätzlich zu Selenpräparaten.",
+      "src": [
+        "dge",
+        "efsa_se_ul2023",
+        "klug2024",
+        "efsa_ul2025"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Selen",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/selen/",
+          "quote": "Selen ist wichtig für den Schutz vor Zellschädigung durch freie Radikale, die Regulation der Schilddrüsenhormone und als Baustein für Spermien.",
+          "claim": "Funktion"
+        },
+        {
+          "cite": "DGE Referenzwert Selen",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/selen/",
+          "quote": "Die Selengehalte von pflanzlichen Lebensmitteln sind abhängig vom Selengehalt der Böden und unterliegen großen Schwankungen.",
+          "claim": "Korrigiert: statt ‚Böden selenarm‘"
+        },
+        {
+          "cite": "DGE Referenzwert Selen",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/selen/",
+          "quote": "Das Risiko für eine Selenunterversorgung über die Ernährung ist in Europa selten … Zudem gilt Selen bei veganer Ernährung als potenziell kritischer Nährstoff.",
+          "claim": "Risiko selten; vegan kritisch"
+        },
+        {
+          "cite": "DGE Referenzwert Selen",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/selen/",
+          "quote": "Paranüssen … reichern sie radioaktives Radium an. Daher sollte der Verzehr im Rahmen von maximal zwei Stück am Tag liegen.",
+          "claim": "Max. 2 Paranüsse"
+        },
+        {
+          "cite": "DGE Referenzwert Selen",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/selen/",
+          "quote": "Zu den pflanzlichen Selen-Lieferanten gehören Kohl- und Zwiebelgemüse sowie Pilze, Spargel und Hülsenfrüchte.",
+          "claim": "Pflanzliche Quellen; Schätzwert 70 µg (Stand 2015)"
+        },
+        {
+          "cite": "EFSA 2023 Selen-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.7704",
+          "quote": "A UL of 255 μg/day is established for adult men and women",
+          "claim": "Obergrenze 255 µg"
+        },
+        {
+          "cite": "EFSA 2023 Selen-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.7704",
+          "quote": "Alopecia, as an early observable feature and a well-established adverse effect of excess selenium exposure, is selected as the critical endpoint",
+          "claim": "Kritischer Effekt"
+        },
+        {
+          "cite": "EFSA 2023 Selen-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.7704",
+          "quote": "Mean concentrations between 5 and 72 μg/g dry weight (up to 400 μg/nut) have been reported",
+          "claim": "Korrigiert: bis 400 µg/Nuss (statt 50 bis > 100)"
+        },
+        {
+          "cite": "EFSA 2023 Selen-UL",
+          "url": "https://doi.org/10.2903/j.efsa.2023.7704",
+          "quote": "unlikely to exceed the UL, except for regular users of food supplements containing high daily doses of selenium or regular consumers of Brazil nuts",
+          "claim": "Nicht kombinieren"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "A vegan diet was associated with lower intakes of vitamin D and selenium",
+          "claim": "Vegan weniger Selen"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "riboflavin",
+      "name": "Vitamin B2 (Riboflavin)",
+      "why": "Als Enzymbestandteil an Zellwachstum sowie am Stoffwechsel von Energie, Protein und anderen B-Vitaminen beteiligt. Bei veganer Ernährung zählt Riboflavin zu den potenziell kritischen Nährstoffen; wer Pflanzendrinks statt Milch nutzt, sollte auf B2 achten.",
+      "who": [
+        "vegan"
+      ],
+      "food": [
+        "Milch und Milchprodukte",
+        "Fisch",
+        "Innereien (Leber, Niere)",
+        "Lichtgeschützt lagern und Kochwasser mitverwenden (lichtempfindlich, wasserlöslich)",
+        "Vegan: ggf. angereicherte Lebensmittel"
+      ],
+      "supplement": "Empfohlen für Männer 1,4 mg/Tag (19 bis < 51 J.) bzw. 1,3 mg/Tag (ab 51 J.) (DGE, Stand 2015). Vegan ggf. über angereicherte Lebensmittel oder Präparate (Klug 2024). Keine EU-Obergrenze ableitbar (SCF).",
+      "src": [
+        "dge",
+        "klug2024",
+        "dge_faq",
+        "efsa_ul2025"
+      ],
+      "refs": [
+        {
+          "cite": "DGE Referenzwert Riboflavin",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/riboflavin/",
+          "quote": "Riboflavin ist als Enzymbestandteil an zahlreichen Reaktionen wie dem Zellwachstum sowie Stoffwechsel von Energie, Protein und anderer B-Vitamine beteiligt.",
+          "claim": "Funktion"
+        },
+        {
+          "cite": "DGE Referenzwert Riboflavin",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/riboflavin/",
+          "quote": "Gute Lieferanten für Riboflavin … sind Innereien wie Leber und Niere sowie Fisch und Milch und Milchprodukte.",
+          "claim": "Lebensmittel (pflanzliche Liste entfernt, nicht belegt)"
+        },
+        {
+          "cite": "DGE Referenzwert Riboflavin",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/riboflavin/",
+          "quote": "Da Riboflavin sehr lichtempfindlich ist und große Mengen des wasserlöslichen Riboflavins in das Kochwasser übergehen",
+          "claim": "Lagerung/Kochwasser"
+        },
+        {
+          "cite": "DGE Referenzwert Riboflavin",
+          "url": "https://www.dge.de/wissenschaft/referenzwerte/riboflavin/",
+          "quote": "Auch bei veganer Ernährung zählt Riboflavin zu den potenziell kritischen Nährstoffen.",
+          "claim": "Vegan kritisch; 1,4/1,3 mg (Stand 2015)"
+        },
+        {
+          "cite": "DGE-Empfehlungen",
+          "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-empfehlungen/",
+          "quote": "Werden pflanzliche Milchalternativen verwendet, ist auf die Versorgung mit Calcium, Jod, Vitamin B2 und Vitamin B12 zu achten.",
+          "claim": "Pflanzendrinks"
+        },
+        {
+          "cite": "Klug 2024",
+          "url": "https://doi.org/10.4455/eu.2024.22",
+          "quote": "(protein, long-chain n-3 fatty acids, vitamin D, vitamin B2, calcium, iron, zinc, selenium and possibly vitamin A), must be obtained from plant sources",
+          "claim": "Vegan: pflanzlich/angereichert/Präparate"
+        },
+        {
+          "cite": "EFSA UL-Übersicht v11 (2025)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/UL_Summary_tables.pdf",
+          "quote": "Vitamin B2 No adequate data to derive a UL (SCF, 2000b)",
+          "claim": "Keine UL"
+        }
+      ],
+      "verified": "2026-11-07"
+    },
+    {
+      "id": "sodium",
+      "name": "Natrium (Schweißverluste)",
+      "why": "Ganzkörperschweiß enthält etwa 10–90 mmol/l Natrium (≈ 0,2–2 g/l); zusammen mit sehr unterschiedlichen Schweißraten ergeben sich Verluste von ca. 50–3500 mg/h. Häufigste Ursache der belastungsassoziierten Hyponatriämie ist aber zu viel Trinken, nicht Salzverlust.",
+      "who": [
+        "endurance",
+        "high_volume"
+      ],
+      "food": [
+        "Normal gesalzene Mahlzeiten",
+        "Natriumhaltige Getränke bei langen/heißen Einheiten (verbessern die Flüssigkeitsretention)"
+      ],
+      "lab": {
+        "test": "Schweißrate über das Körpergewicht vor/nach dem Training (einfachste und genaueste Methode); ein Schweiß-Natrium-Test ist nur mit standardisierter Methodik aussagekräftig",
+        "when": "Optional zur Planung langer oder heißer Wettkämpfe."
+      },
+      "supplement": "Natriumersatz während langer Hitzebelastung ist wenig untersucht – feste Mengen pro Stunde lassen sich daraus nicht ableiten; individuelle Strategien können sinnvoll sein. Die Trinkmenge darf die Schweißverluste nicht übersteigen; Trinken nach Durst garantiert das nicht automatisch.",
+      "src": [
+        "baker2017",
+        "mccubbin2020"
+      ],
+      "refs": [
+        {
+          "cite": "Baker 2017",
+          "url": "https://doi.org/10.1007/s40279-017-0691-5",
+          "quote": "whole-body sweat [Na + ] is approximately 10–70 mmol/L",
+          "claim": "Schweiß-Na (Mittelwert ~40 mmol/l entfernt, nicht im Text)"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "Whole-body [Na+]sweat varies considerably (11 –87 mmol/L)",
+          "claim": "Bereich bis ~90 mmol/l; × 23 mg/mmol ≈ 0,2–2 g/l"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "produces large interindividual differences in Na + losses during exercise (∼50 to 3,500 mg/hr",
+          "claim": "Verluste pro Stunde"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "the most common cause of exercise-associated hyponatremia is excessive fluid intake (Hew-Butler et al., 2015)",
+          "claim": "Hyponatriämie = Überhydrierung"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "Sodium replacement during prolonged exertional heat stress has been less rigorously studied, preventing conclusions about the value of quantifying or replacing sweat Na + losses",
+          "claim": "Korrigiert: 300–600 mg/h entfernt"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "individualized protocols for electrolyte replacement may offer some benefit for specific scenarios",
+          "claim": "Individuelle Strategien"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "ensuring that fluid intake during exercise does not exceed losses, and … drinking to thirst does not necessarily guarantee this",
+          "claim": "Trinkmenge ≤ Verluste; Durst kein Garant"
+        },
+        {
+          "cite": "McCubbin 2020 (SDA)",
+          "url": "https://doi.org/10.1123/ijsnem.2019-0300",
+          "quote": "Consider the use of high sodium fluids to increase fluid retention and reduce urine production.",
+          "claim": "Natriumhaltige Getränke"
+        },
+        {
+          "cite": "Baker 2017",
+          "url": "https://doi.org/10.1007/s40279-017-0691-5",
+          "quote": "The simplest and most accurate method to assess whole-body SR is via changes in body mass during exercise",
+          "claim": "Schweißrate über Gewicht"
+        },
+        {
+          "cite": "Baker 2017",
+          "url": "https://doi.org/10.1007/s40279-017-0691-5",
+          "quote": "sweat testing can be a useful tool … provided that data are collected, analyzed, and interpreted appropriately",
+          "claim": "Schweißtest nur standardisiert"
+        }
+      ],
+      "verified": "2026-11-07"
+    }
+  ]
+}
