@@ -1,0 +1,1478 @@
+{
+ "version": 2,
+ "verified": "2026-11-07",
+ "sources": {
+  "maughan2018": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+  "ais2021": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+  "guest2021": "Guest NS, VanDusseldorp TA, Nelson MT, et al. International Society of Sports Nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021;18(1):1. doi:10.1186/s12970-020-00383-4",
+  "grgic2020": "Grgic J, Grgic I, Pickering C, et al. Wake up and smell the coffee: caffeine supplementation and exercise performance – an umbrella review of 21 published meta-analyses. Br J Sports Med. 2020;54(11):681–688. doi:10.1136/bjsports-2018-100278",
+  "efsa_caffeine2015": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA J. 2015;13(5):4102. doi:10.2903/j.efsa.2015.4102 (Zusammenfassung: https://www.efsa.europa.eu/en/topics/topic/caffeine)",
+  "drake2013": "Drake C, Roehrs T, Shambroom J, Roth T. Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed. J Clin Sleep Med. 2013;9(11):1195–1200. doi:10.5664/jcsm.3170",
+  "jones2014": "Jones AM. Dietary nitrate supplementation and exercise performance. Sports Med. 2014;44(Suppl 1):S35–S45. doi:10.1007/s40279-014-0149-y",
+  "govoni2008": "Govoni M, Jansson EA, Weitzberg E, Lundberg JO. The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash. Nitric Oxide. 2008;19(4):333–337. doi:10.1016/j.niox.2008.08.003",
+  "kreider2017": "Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017;14:18. doi:10.1186/s12970-017-0173-z",
+  "trexler2015": "Trexler ET, Smith-Ryan AE, Stout JR, et al. International Society of Sports Nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30. doi:10.1186/s12970-015-0090-y",
+  "grgic2021": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+  "wada2018": "World Anti-Doping Agency. Summary of Major Modifications and Explanatory Notes – 2018 Prohibited List. Montreal: WADA; 2017 (Glycerin aus S5 gestrichen).",
+  "wada2026": "World Anti-Doping Agency. World Anti-Doping Code International Standard: Prohibited List 2026. Montreal: WADA; 2025 (gültig ab 1. Januar 2026).",
+  "jeukendrup2014": "Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Med. 2014;44(Suppl 1):S25–S33. doi:10.1007/s40279-014-0148-z",
+  "morton2018": "Morton RW, Murphy KT, McKellar SR, et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2018;52(6):376–384. doi:10.1136/bjsports-2017-097608",
+  "jager2017": "Jäger R, Kerksick CM, Campbell BI, et al. International Society of Sports Nutrition position stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20. doi:10.1186/s12970-017-0177-8",
+  "baker2017": "Baker LB. Sweating rate and sweat sodium concentration in athletes: a review of methodology and intra/interindividual variability. Sports Med. 2017;47(Suppl 1):111–128. doi:10.1007/s40279-017-0691-5",
+  "efsa_vitd_ul2023": "EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for vitamin D, including the derivation of a conversion factor for calcidiol monohydrate. EFSA J. 2023;21(8):8145. doi:10.2903/j.efsa.2023.8145",
+  "owens2018": "Owens DJ, Allison R, Close GL. Vitamin D and the athlete: current perspectives and new challenges. Sports Med. 2018;48(Suppl 1):3–16. doi:10.1007/s40279-017-0841-9",
+  "sim2019": "Sim M, Garvican-Lewis LA, Cox GR, et al. Iron considerations for the athlete: a narrative review. Eur J Appl Physiol. 2019;119(7):1463–1478. doi:10.1007/s00421-019-04157-y",
+  "jager2019": "Jäger R, Mohr AE, Carpenter KC, et al. International Society of Sports Nutrition position stand: probiotics. J Int Soc Sports Nutr. 2019;16(1):62. doi:10.1186/s12970-019-0329-0",
+  "gao2020": "Gao R, Chilibeck PD. Effect of tart cherry concentrate on endurance exercise performance: a meta-analysis. J Am Coll Nutr. 2020;39(7):657–664. doi:10.1080/07315724.2020.1713246",
+  "halegoua2023": "Halegoua-DeMarzio D, Navarro V, Ahmad J, et al. Liver injury associated with turmeric – a growing problem: ten cases from the Drug-Induced Liver Injury Network [DILIN]. Am J Med. 2023;136(2):200–206. doi:10.1016/j.amjmed.2022.09.026",
+  "paulsen2014": "Paulsen G, Cumming KT, Holden G, et al. Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial. J Physiol. 2014;592(8):1887–1901. doi:10.1113/jphysiol.2013.267419",
+  "thomas2013": "Thomas LD, Elinder CG, Tiselius HG, Wolk A, Åkesson A. Ascorbic acid supplements and kidney stone incidence among men: a prospective study. JAMA Intern Med. 2013;173(5):386–388. doi:10.1001/jamainternmed.2013.2296",
+  "wolfe2017": "Wolfe RR. Branched-chain amino acids and muscle protein synthesis in humans: myth or reality? J Int Soc Sports Nutr. 2017;14:30. doi:10.1186/s12970-017-0184-9",
+  "valenzuela2020": "Valenzuela PL, Morales JS, Castillo-García A, Lucia A. Acute ketone supplementation and exercise performance: a systematic review and meta-analysis of randomized controlled trials. Int J Sports Physiol Perform. 2020;15(3):298–308. doi:10.1123/ijspp.2019-0918",
+  "shaw2017": "Shaw G, Lee-Barthel A, Ross ML, Wang B, Baar K. Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis. Am J Clin Nutr. 2017;105(1):136–143. doi:10.3945/ajcn.116.138594",
+  "koelner_liste": "Kölner Liste® – Nahrungsergänzungsmittel und Sportlernahrung mit minimiertem Dopingrisiko. Köln: HEIMSPIELE GmbH & Co. KG; online, abgerufen 2026-11-07. https://www.koelnerliste.com/hintergrund",
+  "nsf": "NSF Certified for Sport®. Ann Arbor: NSF International; online, abgerufen 2026-11-07. https://www.nsfsport.com",
+  "informed_sport": "Informed Sport. LGC Assure; online, abgerufen 2026-11-07. https://sport.wetestyoutrust.com"
+ },
+ "note": "Nahrungsergänzungsmittel sind keine zugelassenen Arzneimittel; in Produkten wurden wiederholt nicht deklarierte verbotene Substanzen gefunden (u. a. Stimulanzien, Anabolika, SARMs). Im Wettkampfsport gilt Strict Liability (WADA-Code): möglichst nur geprüfte Produkte (Kölner Liste, NSF Certified for Sport, Informed Sport) verwenden – das senkt das Risiko, schließt es aber nicht aus. Grundsatz: Food first, Mikronährstoffe (z. B. Eisen, Vitamin D) nur nach Laborbefund, neue Produkte vorher im Training testen, nie erst am Wettkampftag. Evidenzstufe = Einstufung im AIS Sports Supplement Framework (A/B/C).",
+ "note_refs": [
+  {
+   "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+   "url": "https://doi.org/10.1136/bjsports-2018-099027",
+   "quote": "including stimulants, anabolic agents, selective androgen receptor modulators, diuretics, anorectics and β2 agonists",
+   "claim": "note: Verunreinigungen"
+  },
+  {
+   "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+   "url": "https://doi.org/10.1136/bjsports-2018-099027",
+   "quote": "the rules of strict liability within the World Anti-Doping Code mean that an AAF will be recorded",
+   "claim": "note: Strict Liability"
+  },
+  {
+   "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+   "url": "https://doi.org/10.1136/bjsports-2018-099027",
+   "quote": "There can be no absolute guarantee that any product is entirely safe, but these schemes do help the athlete to manage the risk.",
+   "claim": "note: Prüfsiegel"
+  },
+  {
+   "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+   "url": "https://doi.org/10.1136/bjsports-2018-099027",
+   "quote": "Supplements intended to enhance performance should be thoroughly trialled in training or simulated competition before being used in competition.",
+   "claim": "note: im Training testen"
+  },
+  {
+   "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+   "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+   "quote": "A ‘food first’ policy should apply to all supplements",
+   "claim": "note: Food first (AIS-Fact-Sheet Isolierte Proteine)"
+  },
+  {
+   "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+   "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+   "quote": "Strong scientific evidence for use in specific situations in sport using evidence-based protocols.",
+   "claim": "note: Definition Gruppe A"
+  },
+  {
+   "cite": "Kölner Liste® – Nahrungsergänzungsmittel und Sportlernahrung mit minimiertem Dopingrisiko. Köln: HEIMSPIELE GmbH & Co. KG; online, abgerufen 2026-11-07. https://www.koelnerliste.com/hintergrund",
+   "url": "https://www.koelnerliste.com/hintergrund",
+   "quote": "verfahrenstechnisch eine 100%ige Sicherheit von NEM nicht garantiert werden kann, sondern nur eine Minimierung des Dopingrisikos",
+   "claim": "note: Kölner Liste"
+  },
+  {
+   "cite": "Informed Sport. LGC Assure; online, abgerufen 2026-11-07. https://sport.wetestyoutrust.com",
+   "url": "https://www.wetestyoutrust.com/",
+   "quote": "Every batch pre-release banned substance supplement testing programme for finished products.",
+   "claim": "note: Informed Sport"
+  },
+  {
+   "cite": "NSF Certified for Sport®. Ann Arbor: NSF International; online, abgerufen 2026-11-07. https://www.nsfsport.com",
+   "url": "https://www.nsfsport.com/",
+   "quote": "Tested for 280+ banned substances",
+   "claim": "note: NSF Certified for Sport"
+  }
+ ],
+ "items": [
+  {
+   "id": "caffeine",
+   "name": "Koffein",
+   "evidence": "A",
+   "effect": "Adenosinrezeptor-Antagonist, senkt das Anstrengungsempfinden. Verbessert Ausdauer (Zeitfahren 5–150 min), Kraft, Kraftausdauer, Sprung- und Sprintleistung; Ausdauer-Zeitfahren im Mittel ca. +2–3 %.",
+   "dose": "3 mg/kg (≈ 210 mg bei 71 kg) bis ca. 60 min vor Belastung (IOC/ISSN: 3–6 mg/kg; AIS: Nutzen-Plateau bei ~3 mg/kg); schon ~2 mg/kg können wirken, ≥ 9 mg/kg ohne Zusatznutzen. Langdistanz: alternativ niedrige Dosen (100–300 mg) während der Belastung, z. B. später im Rennen; laut AIS beim Ironman ggf. auch > 3 mg/kg.",
+   "dose_mg_kg": 3,
+   "use_when": [
+    "race",
+    "hard_session",
+    "endurance_>90min",
+    "high_intensity_1_7min"
+   ],
+   "caution": "Halbwertszeit im Mittel 4–6 h (Spanne 1,5–10 h). Mindestens 6 h vor dem Schlaf keine größeren Mengen (400 mg 6 h vorher störten den Schlaf messbar); schon 100 mg kurz vor dem Schlafen können den Schlaf beeinflussen – wichtig bei Schicht-/Nachtdienst. EFSA: Einzeldosen bis 200 mg (≈ 3 mg/kg; auch < 2 h vor intensiver Belastung) und bis 400 mg/Tag für gesunde Erwachsene unbedenklich – 3 mg/kg bei 71 kg (≈ 210 mg) liegt knapp darüber. Nebenwirkungen: Übelkeit, Angst/Unruhe, Herzfrequenzanstieg, Schlafstörungen.",
+   "src": [
+    "maughan2018",
+    "guest2021",
+    "grgic2020",
+    "ais2021",
+    "efsa_caffeine2015",
+    "drake2013"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "3–6 mg/kg of body mass (BM), in the form of anhydrous caffeine (ie, pill or powder form), consumed ~60 min prior to exercise",
+     "claim": "dose: 3–6 mg/kg, ~60 min vorher"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "endurance-based time-trial (TT) activities of varying duration (5–150 min)",
+     "claim": "effect: Zeitfahren 5–150 min"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Low doses of caffeine (100–300 mg) consumed during endurance exercise (after 15–80 min of activity) may enhance cycling TT performance by 3%–7%.",
+     "claim": "dose: 100–300 mg während der Belastung"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Larger caffeine doses (≥9 mg/kg BM) do not appear to increase the performance benefit",
+     "claim": "dose: ≥ 9 mg/kg ohne Zusatznutzen"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "side effects, including nausea, anxiety, accelerated heart rate and insomnia",
+     "claim": "caution: Nebenwirkungen"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Adenosine receptor antagonism; … reduced the perception of exertion during exercise",
+     "claim": "effect: Mechanismus"
+    },
+    {
+     "cite": "Guest NS, VanDusseldorp TA, Nelson MT, et al. International Society of Sports Nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021;18(1):1. doi:10.1186/s12970-020-00383-4",
+     "url": "https://doi.org/10.1186/s12970-020-00383-4",
+     "quote": "Minimal effective doses of caffeine currently remain unclear but they may be as low as 2 mg/kg body mass.",
+     "claim": "dose: ~2 mg/kg können wirken"
+    },
+    {
+     "cite": "Guest NS, VanDusseldorp TA, Nelson MT, et al. International Society of Sports Nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021;18(1):1. doi:10.1186/s12970-020-00383-4",
+     "url": "https://doi.org/10.1186/s12970-020-00383-4",
+     "quote": "The most commonly used timing of caffeine supplementation is 60 min pre-exercise.",
+     "claim": "dose: Timing 60 min"
+    },
+    {
+     "cite": "Guest NS, VanDusseldorp TA, Nelson MT, et al. International Society of Sports Nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021;18(1):1. doi:10.1186/s12970-020-00383-4",
+     "url": "https://doi.org/10.1186/s12970-020-00383-4",
+     "quote": "mean power output of 2.9 ± 2.2% … Time-trial completion time showed improvements of 2.3 ± 2.6%",
+     "claim": "effect: Ausdauer ca. +2–3 %"
+    },
+    {
+     "cite": "Guest NS, VanDusseldorp TA, Nelson MT, et al. International Society of Sports Nutrition position stand: caffeine and exercise performance. J Int Soc Sports Nutr. 2021;18(1):1. doi:10.1186/s12970-020-00383-4",
+     "url": "https://doi.org/10.1186/s12970-020-00383-4",
+     "quote": "half-life (t 1/2 ) of caffeine is generally reported to be between 4 and 6 h … may range from 1.5 to 10 h",
+     "claim": "caution: Halbwertszeit 4–6 h (1,5–10 h)"
+    },
+    {
+     "cite": "Grgic J, Grgic I, Pickering C, et al. Wake up and smell the coffee: caffeine supplementation and exercise performance – an umbrella review of 21 published meta-analyses. Br J Sports Med. 2020;54(11):681–688. doi:10.1136/bjsports-2018-100278",
+     "url": "https://doi.org/10.1136/bjsports-2018-100278",
+     "quote": "caffeine was ergogenic for aerobic endurance, muscle strength, muscle endurance, power, jumping performance and exercise speed",
+     "claim": "effect: Belastungsformen; Evidenz A"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "the plateau seems to occur at a dose of ~3 mg/kg or ~200 mg",
+     "claim": "dose: Plateau ~3 mg/kg (AIS-Fact-Sheet Koffein, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Doses exceeding 3 mg/kg body mass may be appropriate for longer duration events like Ironman triathlon",
+     "claim": "dose: Ironman ggf. > 3 mg/kg"
+    },
+    {
+     "cite": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA J. 2015;13(5):4102. doi:10.2903/j.efsa.2015.4102 (Zusammenfassung: https://www.efsa.europa.eu/en/topics/topic/caffeine)",
+     "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+     "quote": "Single doses of caffeine up to 200mg – about 3mg per kilogram of body weight (mg/kg bw) from all sources do not raise safety concerns",
+     "claim": "caution: EFSA Einzeldosis 200 mg"
+    },
+    {
+     "cite": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA J. 2015;13(5):4102. doi:10.2903/j.efsa.2015.4102 (Zusammenfassung: https://www.efsa.europa.eu/en/topics/topic/caffeine)",
+     "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+     "quote": "The same amount of caffeine does not raise safety concerns when consumed less than two hours prior to intense physical exercise",
+     "claim": "caution: auch vor Belastung"
+    },
+    {
+     "cite": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA J. 2015;13(5):4102. doi:10.2903/j.efsa.2015.4102 (Zusammenfassung: https://www.efsa.europa.eu/en/topics/topic/caffeine)",
+     "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+     "quote": "Intakes up to 400mg per day (about 5.7mg/kg bw per day) consumed throughout the day do not raise safety concerns for healthy adults",
+     "claim": "caution: EFSA 400 mg/Tag"
+    },
+    {
+     "cite": "EFSA NDA Panel. Scientific Opinion on the safety of caffeine. EFSA J. 2015;13(5):4102. doi:10.2903/j.efsa.2015.4102 (Zusammenfassung: https://www.efsa.europa.eu/en/topics/topic/caffeine)",
+     "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+     "quote": "Single doses of 100mg (about 1.4mg/kg bw) of caffeine may affect sleep duration and patterns in some adults, particularly when consumed close to bedtime",
+     "claim": "caution: 100 mg vor dem Schlaf"
+    },
+    {
+     "cite": "Drake C, Roehrs T, Shambroom J, Roth T. Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed. J Clin Sleep Med. 2013;9(11):1195–1200. doi:10.5664/jcsm.3170",
+     "url": "https://doi.org/10.5664/jcsm.3170",
+     "quote": "support for sleep hygiene recommendations to refrain from substantial caffeine use for a minimum of 6 hours prior to bedtime",
+     "claim": "caution: mind. 6 h vor dem Schlaf (400 mg getestet)"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "nitrate",
+   "name": "Nitrat (Rote-Bete-Saft)",
+   "evidence": "A",
+   "effect": "Erhöht die NO-Verfügbarkeit über den Nitrat-Nitrit-NO-Weg, senkt den O₂-Bedarf bei submaximaler Belastung. Leistungsplus v. a. bei Dauerbelastungen von ca. 5–30 min (Zeitfahren < 40 min: +1–3 %); unter 12 min uneinheitlich. Bei hochtrainierten Ausdauersportlern (VO₂max > 65 ml/kg/min) kein signifikanter Nutzen.",
+   "dose": "5–9 mmol (310–560 mg) Nitrat (IOC; AIS: 6–10 mmol bzw. 350–650 mg), z. B. 1 Konzentrat-Shot à 70 ml (Beet It Sport ≈ 400 mg), ca. 2–3 h vor Start. Mehrtägige Einnahme (> 3 Tage, letzte Dosis ~2,5–3 h vorher) erscheint ebenfalls wirksam und für Hochtrainierte eher sinnvoll; 16,8 mmol brachten nicht mehr als 8,4 mmol.",
+   "dose_mg_kg": 6.2,
+   "dose_mg_kg_basis": "Nitrat, ≈ 0,1 mmol/kg",
+   "use_when": [
+    "race",
+    "hard_session",
+    "high_intensity_1_7min"
+   ],
+   "caution": "Antibakterielle Mundspülung (z. B. Chlorhexidin) schwächt die Umwandlung von Nitrat zu Nitrit im Mund deutlich ab – vor der Einnahme vermeiden. Harmlose, vorübergehende Rosafärbung von Urin/Stuhl; gelegentlich leichte Magen-Darm-Beschwerden, daher im Training testen. Keine Nitrat-/Nitritsalze verwenden (Dosierfehler, Nitrit toxisch).",
+   "src": [
+    "maughan2018",
+    "jones2014",
+    "ais2021",
+    "govoni2008"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Acute performance benefits are generally seen within 2–3 hours following an NO 3 − bolus of 5–9 mmol (310–560 mg).",
+     "claim": "dose: 5–9 mmol, 2–3 h"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Prolonged periods of NO 3 − intake (>3 days) also appear beneficial to performance",
+     "claim": "dose: > 3 Tage"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "improvements of 4%–25% in exercise time to exhaustion and of 1%–3% in sport-specific TT performances lasting <40 min",
+     "claim": "effect: TT < 40 min +1–3 %"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Evidence is equivocal for any benefit to exercise tasks lasting <12 min.",
+     "claim": "effect: < 12 min uneinheitlich"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "no greater benefit from 16.8 mmol (1041 mg) vs 8.4 mmol (521 mg)",
+     "claim": "dose: Obergrenze des Nutzens"
+    },
+    {
+     "cite": "Jones AM. Dietary nitrate supplementation and exercise performance. Sports Med. 2014;44(Suppl 1):S35–S45. doi:10.1007/s40279-014-0149-y",
+     "url": "https://doi.org/10.1007/s40279-014-0149-y",
+     "quote": "The duration of continuous maximal exercise for which nitrate appears to be ergogenic is in the range of 5–30 min",
+     "claim": "effect: 5–30 min"
+    },
+    {
+     "cite": "Jones AM. Dietary nitrate supplementation and exercise performance. Sports Med. 2014;44(Suppl 1):S35–S45. doi:10.1007/s40279-014-0149-y",
+     "url": "https://doi.org/10.1007/s40279-014-0149-y",
+     "quote": "lower the oxygen cost of exercise",
+     "claim": "effect: O₂-Bedarf"
+    },
+    {
+     "cite": "Jones AM. Dietary nitrate supplementation and exercise performance. Sports Med. 2014;44(Suppl 1):S35–S45. doi:10.1007/s40279-014-0149-y",
+     "url": "https://doi.org/10.1007/s40279-014-0149-y",
+     "quote": "3 days at 0.1 mmol/kg BM/day",
+     "claim": "dose_mg_kg: ≈ 0,1 mmol/kg (= 6,2 mg/kg Nitrat, MW 62 g/mol)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "highly-trained endurance athletes (with VO2max greater than 65 ml/kg/min) not benefitting significantly from nitrate supplementation",
+     "claim": "effect: Hochtrainierte (AIS-Fact-Sheet Nitrat, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "~ 6-10 mmol or ~350-650 mg nitrate … consumed ~ 2-3 hours pre-exercise",
+     "claim": "dose: AIS-Dosis"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "a 70 ml shot of Beet It Sport Nitrate … contains 400mg nitrate",
+     "claim": "dose: 70-ml-Shot"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "The consumption of beetroot/juice may cause a temporary pink coloration of urine and stools. This is a harmless side-effect.",
+     "claim": "caution: Rosafärbung"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Beetroot juice, particularly in concentrated form and larger doses, sometimes causes mild gastrointestinal discomfort.",
+     "claim": "caution: GI-Beschwerden"
+    },
+    {
+     "cite": "Govoni M, Jansson EA, Weitzberg E, Lundberg JO. The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash. Nitric Oxide. 2008;19(4):333–337. doi:10.1016/j.niox.2008.08.003",
+     "url": "https://doi.org/10.1016/j.niox.2008.08.003",
+     "quote": "antibacterial mouthwash prior to the nitrate load … abolished its conversion to nitrite in saliva and markedly attenuated the rise in plasma nitrite",
+     "claim": "caution: Mundspülung"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "creatine",
+   "name": "Kreatin-Monohydrat",
+   "evidence": "A",
+   "effect": "Erhöht muskuläres Kreatin/Phosphokreatin: bessere Leistung bei einzelnen und wiederholten hochintensiven Belastungen (< 150 s, am stärksten < 30 s) sowie größere Zuwächse an Magermasse und Kraft im Kraft-/Intervalltraining. Ausdauerleistungsvorteile seltener berichtet.",
+   "dose": "Laden: ~20 g/Tag (≈ 0,3 g/kg/Tag, in 4 × 5 g) über 5–7 Tage, dann 3–5 g/Tag; alternativ ohne Ladephase 3 g/Tag über 28 Tage. Mit einer kohlenhydrat-/proteinhaltigen Mahlzeit einnehmen.",
+   "dose_mg_kg": 300,
+   "dose_mg_kg_basis": "Ladephase pro Tag",
+   "use_when": [
+    "strength",
+    "high_intensity_1_7min"
+   ],
+   "caution": "Gewichtszunahme ca. 1–2 kg (v. a. Wassereinlagerung); laut IOC nachteilig, wo Körpermasse gegen die Schwerkraft bewegt wird (z. B. Bergauf), laut AIS für Laufen/Schwimmen offenbar unbegründet – vor Wettkampfphasen abwägen. Laut ISSN keine überzeugenden Belege für Nierenschäden bei Gesunden; bei bestehender Nierenerkrankung vorher ärztlich abklären.",
+   "src": [
+    "maughan2018",
+    "kreider2017",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Loading phase: ~20 g/day (divided into four equal daily doses), for 5–7 days … Maintenance phase: 3–5 g/day (single dose)",
+     "claim": "dose: Laden und Erhaltung"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "concurrent consumption with a mixed protein/CHO source (~50 g of protein and CHO) may enhance muscle creatine uptake",
+     "claim": "dose: mit Mahlzeit"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "single and repeated bouts of high-intensity exercise (<150 s duration); most pronounced effects evident during tasks <30 s",
+     "claim": "effect: < 150 s / < 30 s"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Less common: enhanced endurance performance",
+     "claim": "effect: Ausdauer seltener"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "A potential 1–2 kg BM increase after creatine loading (primarily as a result of water retention",
+     "claim": "caution: 1–2 kg"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "may be detrimental for endurance performance or in events where the BM must be moved against gravity",
+     "claim": "caution: Schwerkraft"
+    },
+    {
+     "cite": "Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017;14:18. doi:10.1186/s12970-017-0173-z",
+     "url": "https://doi.org/10.1186/s12970-017-0173-z",
+     "quote": "ingest 5 g of creatine monohydrate (or approximately 0.3 g/kg body weight) four times daily for 5–7 days",
+     "claim": "dose: 0,3 g/kg, 5–7 Tage"
+    },
+    {
+     "cite": "Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017;14:18. doi:10.1186/s12970-017-0173-z",
+     "url": "https://doi.org/10.1186/s12970-017-0173-z",
+     "quote": "An alternative supplementation protocol is to ingest 3 g/day of creatine monohydrate for 28 days",
+     "claim": "dose: ohne Ladephase"
+    },
+    {
+     "cite": "Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017;14:18. doi:10.1186/s12970-017-0173-z",
+     "url": "https://doi.org/10.1186/s12970-017-0173-z",
+     "quote": "no compelling evidence that creatine supplementation negatively affects renal function in healthy or clinical populations",
+     "claim": "caution: Niere"
+    },
+    {
+     "cite": "Kreider RB, Kalman DS, Antonio J, et al. International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. J Int Soc Sports Nutr. 2017;14:18. doi:10.1186/s12970-017-0173-z",
+     "url": "https://doi.org/10.1186/s12970-017-0173-z",
+     "quote": "renal disease consult with their physician prior to creatine supplementation in an abundance of caution",
+     "claim": "caution: ärztlich abklären"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "about 0.3 g of creatine/kg body mass per day, for 5 days, typically in 3-4 divided doses (i.e. with meals)",
+     "claim": "dose_mg_kg: 300 mg/kg Ladephase (AIS-Fact-Sheet Kreatin, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "It appears these concerns are unfounded, as studies have showed improved running and swimming performance",
+     "claim": "caution: Laufen/Schwimmen"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "beta_alanine",
+   "name": "Beta-Alanin",
+   "evidence": "A",
+   "effect": "Erhöht muskuläres Carnosin (intrazellulärer H⁺-Puffer); kleiner Leistungsvorteil (~0,2–3 %) bei Belastungen von ca. 30 s bis 10 min, am deutlichsten 1–4 min. Längere Ausdauerbelastungen liegen außerhalb dieses Bereichs; bei gut Trainierten schwerer erreichbar.",
+   "dose": "~65 mg/kg/Tag (≈ 4,6 g bei 71 kg; ISSN: 4–6 g/Tag) über 10–12 Wochen (mind. 2–4 Wochen), aufgeteilt in Einzeldosen à 0,8–1,6 g alle 3–4 h, am besten zu Mahlzeiten.",
+   "dose_mg_kg": 65,
+   "use_when": [
+    "high_intensity_1_7min",
+    "hard_session"
+   ],
+   "caution": "Kribbeln (Parästhesie) v. a. bei > 800 mg Einzeldosis in nicht-retardierter Form; harmlos, klingt meist nach 60–90 min ab. Kleinere Einzeldosen (≤ 1,6 g) oder Retardpräparate reduzieren es. Hautausschlag möglich. Wirkt nur bei täglicher Einnahme über Wochen, nicht akut vor dem Rennen.",
+   "src": [
+    "maughan2018",
+    "trexler2015",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Daily consumption of ~65 mg/kg BM, ingested via a split-dose regimen (ie, 0.8–1.6 g every 3–4 hours) over … 10–12 weeks",
+     "claim": "dose: 65 mg/kg, Split, 10–12 Wochen"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Small, but potentially meaningful performance benefits (~0.2%–3%) during … exercise tasks of 30 s to 10 min in duration",
+     "claim": "effect: 30 s–10 min"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "The supplement effectiveness appears harder to realise in well-trained athletes.",
+     "claim": "effect: gut Trainierte"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Possible negative side effects include skin rashes and/or transient paraesthesia.",
+     "claim": "caution: Ausschlag, Parästhesie"
+    },
+    {
+     "cite": "Trexler ET, Smith-Ryan AE, Stout JR, et al. International Society of Sports Nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30. doi:10.1186/s12970-015-0090-y",
+     "url": "https://doi.org/10.1186/s12970-015-0090-y",
+     "quote": "Daily supplementation with 4 to 6 g of beta-alanine for at least 2 to 4 weeks has been shown to improve exercise performance",
+     "claim": "dose: 4–6 g, mind. 2–4 Wochen"
+    },
+    {
+     "cite": "Trexler ET, Smith-Ryan AE, Stout JR, et al. International Society of Sports Nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30. doi:10.1186/s12970-015-0090-y",
+     "url": "https://doi.org/10.1186/s12970-015-0090-y",
+     "quote": "more pronounced effects in open end-point tasks/time trials lasting 1 to 4 min in duration",
+     "claim": "effect: 1–4 min"
+    },
+    {
+     "cite": "Trexler ET, Smith-Ryan AE, Stout JR, et al. International Society of Sports Nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30. doi:10.1186/s12970-015-0090-y",
+     "url": "https://doi.org/10.1186/s12970-015-0090-y",
+     "quote": "commonly experienced in individuals consuming more than 800 mg of beta-alanine in a non-sustained release form",
+     "claim": "caution: > 800 mg"
+    },
+    {
+     "cite": "Trexler ET, Smith-Ryan AE, Stout JR, et al. International Society of Sports Nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30. doi:10.1186/s12970-015-0090-y",
+     "url": "https://doi.org/10.1186/s12970-015-0090-y",
+     "quote": "paraesthesia has generally been reported to disappear within 60 to 90 min following supplementation",
+     "claim": "caution: 60–90 min"
+    },
+    {
+     "cite": "Trexler ET, Smith-Ryan AE, Stout JR, et al. International Society of Sports Nutrition position stand: Beta-Alanine. J Int Soc Sports Nutr. 2015;12:30. doi:10.1186/s12970-015-0090-y",
+     "url": "https://doi.org/10.1186/s12970-015-0090-y",
+     "quote": "can be attenuated by using divided lower doses (1.6 g) or using a sustained-release formula",
+     "claim": "caution: kleinere Dosen/Retard"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "The efficiency of carnosine loading is significantly higher when ß-alanine is co-ingested with a meal (+64%)",
+     "claim": "dose: zu Mahlzeiten (AIS-Fact-Sheet Beta-Alanin, Gruppe A)"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "sodium_bicarbonate",
+   "name": "Natriumbicarbonat",
+   "evidence": "A",
+   "effect": "Erhöht die extrazelluläre Pufferkapazität; Leistungsplus (~2 % bei ~60-s-Sprints) bei hochintensiven Belastungen von ca. 30 s bis 10–12 min, auch bei wiederholten Belastungen. Wirkung nimmt über 10 min Dauer ab.",
+   "dose": "0,2–0,3 g/kg (0,3 g/kg optimal; ≈ 21 g bei 71 kg) 60–180 min vor Belastung (IOC: 60–150 min) mit Flüssigkeit und kleiner kohlenhydratreicher Mahlzeit (~1,5 g KH/kg). Alternativ mehrtägig 3–7 Tage mit 0,4–0,5 g/kg/Tag, verteilt auf 0,1–0,2 g/kg zu den Mahlzeiten; magensaftresistente Kapseln möglich.",
+   "dose_mg_kg": 300,
+   "use_when": [
+    "high_intensity_1_7min",
+    "race"
+   ],
+   "caution": "Häufig Magen-Darm-Beschwerden (Blähungen, Übelkeit, Erbrechen, Bauchschmerzen), die die Leistung zunichtemachen können – unbedingt im Training testen. Höhere Dosen (0,4–0,5 g/kg) bringen keinen Zusatznutzen, aber mehr Nebenwirkungen. Hohe Natriumzufuhr: 21 g Natriumbicarbonat enthalten rechnerisch ≈ 5,8 g Natrium (Massenanteil 27 %).",
+   "src": [
+    "maughan2018",
+    "grgic2021",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Single acute NaHCO 3 dose of 0.2–0.4 g/kg BM, consumed 60–150 min prior to exercise",
+     "claim": "dose: IOC 0,2–0,4 g/kg, 60–150 min"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Enhanced performance (~2%) of short-term, high-intensity sprints lasting ~60 s … reduced efficacy as the effort duration exceeds 10 min",
+     "claim": "effect: ~2 %, > 10 min geringer"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Coingestion with a small, carbohydrate-rich meal (~1.5 g/kg BM carbohydrates)",
+     "claim": "dose: Mahlzeit 1,5 g/kg KH"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "The optimal dose of sodium bicarbonate dose for ergogenic effects seems to be 0.3 g/kg.",
+     "claim": "dose_mg_kg: 300 mg/kg"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "the recommended timing of sodium bicarbonate ingestion is between 60 and 180 min before exercise or competition",
+     "claim": "dose: 60–180 min"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "The duration of these protocols is generally between 3 and 7 days … a total sodium bicarbonate dose of 0.4 or 0.5 g/kg per day",
+     "claim": "dose: mehrtägig"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "(e.g., 0.1 to 0.2 g/kg of sodium bicarbonate consumed at breakfast, lunch, and dinner)",
+     "claim": "dose: Aufteilung"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "mostly established for exercise tasks of high-intensity that last between 30 s and 12 min",
+     "claim": "effect: 30 s–12 min"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "The most common side-effects of sodium bicarbonate supplementation are bloating, nausea, vomiting, and abdominal pain.",
+     "claim": "caution: GI-Nebenwirkungen"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "Higher doses (e.g., 0.4 or 0.5 g/kg) … do not provide additional benefits … associated with a higher incidence and severity of adverse side-effects",
+     "claim": "caution: höhere Dosen"
+    },
+    {
+     "cite": "Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. J Int Soc Sports Nutr. 2021;18(1):61. doi:10.1186/s12970-021-00458-w",
+     "url": "https://doi.org/10.1186/s12970-021-00458-w",
+     "quote": "alongside a high-carbohydrate meal, and (iv) in enteric-coated capsules are possible strategies to minimize",
+     "claim": "dose: Mahlzeit, Kapseln"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "There is good evidence for the use of bicarbonate by athletes competing in high-intensity activity lasting from 30 s to 10 minutes",
+     "claim": "evidence: AIS-Fact-Sheet Natriumbicarbonat, Gruppe A"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "glycerol",
+   "name": "Glycerin (Hyperhydratation)",
+   "evidence": "A",
+   "effect": "Osmotisch wirksam: bindet vor Belastung zusätzliches Körperwasser (geringere Urinmenge, mehr Flüssigkeitsretention bis ~4 h). Kleiner Leistungsvorteil (~3 % Leistung) bei langen Belastungen in Hitze, wenn Trinken nicht mit dem Schweißverlust mithalten kann. WADA: seit 2018 nicht mehr verboten (auch 2026 nicht gelistet).",
+   "dose": "1,2–1,4 g/kg (≈ 85–100 g bei 71 kg) in ~25 ml/kg Flüssigkeit (≈ 1,8 l) über 90–180 min vor Belastung; alternativ/zusätzlich 3 g Natrium pro Liter.",
+   "dose_mg_kg": 1200,
+   "use_when": [
+    "race",
+    "endurance_>90min"
+   ],
+   "caution": "Mögliche Magen-Darm-Beschwerden, Übelkeit, Kopfschmerzen, abführende Wirkung, Gewichtszunahme; nur im Training erproben. Kein physiologischer Vorteil, wenn man ausreichend hydriert startet und unterwegs so trinken kann, dass der Verlust < 2 % der Körpermasse bleibt. Vor Ultra-Ausdauer-Rennen laut AIS nicht empfohlen (anhaltende Flüssigkeitsüberladung möglich).",
+   "src": [
+    "ais2021",
+    "wada2018",
+    "wada2026"
+   ],
+   "refs": [
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "1.2 - 1.4 g/kg body mass Glycerol in ~25 ml/kg body mass fluid in the 90 - 180 min prior to exercise",
+     "claim": "dose: 1,2–1,4 g/kg, 25 ml/kg, 90–180 min (AIS-Fact-Sheet Glycerin, Gruppe A, Stand Nov. 2025)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "the addition of 3.0 g/L sodium, with or without glycerol, can be added to a hydration solution",
+     "claim": "dose: 3 g Na/l"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "provided a small (3% power output, effect size 0.35) but worthwhile enhancement to prolonged exercise performance above hyperhydration with water",
+     "claim": "effect: ~3 % in Hitze"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Greater fluid retention for up to 4 h after ingestion",
+     "claim": "effect: Retention bis 4 h"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Gastrointestinal discomfort … The gain in body mass … Nausea … Headaches … Laxative effect",
+     "claim": "caution: Nebenwirkungen"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "There is no physiological … advantage in performing pre-exercise hyperhydration for athletes who can commence exercise in a euhydrated … state",
+     "claim": "caution: kein Vorteil bei Euhydratation"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "glycerol-induced hyperhydration is not recommended prior to such activities and may cause prolonged fluid overloading",
+     "claim": "caution: Ultra-Ausdauer (bezogen auf ultra-endurance races)"
+    },
+    {
+     "cite": "World Anti-Doping Agency. Summary of Major Modifications and Explanatory Notes – 2018 Prohibited List. Montreal: WADA; 2017 (Glycerin aus S5 gestrichen).",
+     "url": "https://www.wada-ama.org/sites/default/files/prohibited_list_2018_summary_of_modifications_en.pdf",
+     "quote": "the magnitude of glycerol-derived effects is regarded as minimal. Therefore, glycerol has been removed from the Prohibited List.",
+     "claim": "effect: WADA seit 2018 erlaubt"
+    },
+    {
+     "cite": "World Anti-Doping Agency. World Anti-Doping Code International Standard: Prohibited List 2026. Montreal: WADA; 2025 (gültig ab 1. Januar 2026).",
+     "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+     "quote": "S5 DIURETICS AND MASKING AGENTS PROHIBITED AT ALL TIMES (IN- AND OUT-OF-COMPETITION)",
+     "claim": "effect: 2026 nicht gelistet – Glycerol erscheint weder in S5 noch im Index der Liste 2026 (Volltextsuche ohne Treffer)"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "protein_powder",
+   "name": "Proteinpulver (Whey, Casein, pflanzlich)",
+   "evidence": "A",
+   "effect": "Sportlebensmittel: liefert hochwertiges Protein für Muskelproteinsynthese und Regeneration; zusammen mit Krafttraining kleine Zuwächse an Muskelmasse und Kraft. Der Tagesbedarf ist meist schon über Lebensmittel erreichbar – Food first, Pulver nur bei Bedarf (Dienst, Reisen, wenig Appetit).",
+   "dose": "≈ 0,3 g/kg pro Mahlzeit (IOC 0,3–0,5 g/kg; ≈ 20–25 g, max. 40 g pro Portion) mit 0,7–3 g Leucin, trainingsnah (nach dem Training gut belegt), verteilt alle 3–4 h; Tagesziel ~1,6 g/kg (≈ 115 g) inklusive Ernährung, darüber laut Metaanalyse kein weiterer Muskelzuwachs. Optional 30–40 g Casein vor dem Schlaf.",
+   "dose_mg_kg": 300,
+   "dose_mg_kg_basis": "pro Mahlzeit",
+   "use_when": [
+    "strength",
+    "hard_session",
+    "long_session"
+   ],
+   "caution": "Kontaminations- und Dopingrisiko je nach Hersteller (Kölner Liste/NSF/Informed Sport). Zusätze wie Kreatin, Koffein oder Stimulanzien auf dem Etikett prüfen – Mehrkomponentenprodukte meiden. Pflanzlich: verschiedene Proteinquellen mischen (oder mit Leucin angereichert), um die Wertigkeit zu erhöhen.",
+   "src": [
+    "maughan2018",
+    "morton2018",
+    "jager2017",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Recommended daily dose: 1.6 g protein/kg/day optimal (up to 2.2 g/kg/day with no adverse effects)",
+     "claim": "dose: 1,6 g/kg/Tag"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Recommended per-meal doses: 0.3–0.5 g protein/kg (3–4 times per day and in close temporal proximity to exercise, with postexercise being consistently shown to be effective)",
+     "claim": "dose: 0,3–0,5 g/kg, trainingsnah"
+    },
+    {
+     "cite": "Morton RW, Murphy KT, McKellar SR, et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2018;52(6):376–384. doi:10.1136/bjsports-2017-097608",
+     "url": "https://doi.org/10.1136/bjsports-2017-097608",
+     "quote": "Protein supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains in FFM.",
+     "claim": "dose: 1,6 g/kg Plateau"
+    },
+    {
+     "cite": "Morton RW, Murphy KT, McKellar SR, et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2018;52(6):376–384. doi:10.1136/bjsports-2017-097608",
+     "url": "https://doi.org/10.1136/bjsports-2017-097608",
+     "quote": "Dietary protein supplementation significantly enhanced changes in muscle strength and size during prolonged RET in healthy adults.",
+     "claim": "effect: Kraft/Muskelmasse"
+    },
+    {
+     "cite": "Jäger R, Kerksick CM, Campbell BI, et al. International Society of Sports Nutrition position stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20. doi:10.1186/s12970-017-0177-8",
+     "url": "https://doi.org/10.1186/s12970-017-0177-8",
+     "quote": "Acute protein doses should strive to contain 700–3000 mg of leucine",
+     "claim": "dose: Leucin 0,7–3 g"
+    },
+    {
+     "cite": "Jäger R, Kerksick CM, Campbell BI, et al. International Society of Sports Nutrition position stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20. doi:10.1186/s12970-017-0177-8",
+     "url": "https://doi.org/10.1186/s12970-017-0177-8",
+     "quote": "These protein doses should ideally be evenly distributed, every 3–4 h, across the day.",
+     "claim": "dose: alle 3–4 h"
+    },
+    {
+     "cite": "Jäger R, Kerksick CM, Campbell BI, et al. International Society of Sports Nutrition position stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20. doi:10.1186/s12970-017-0177-8",
+     "url": "https://doi.org/10.1186/s12970-017-0177-8",
+     "quote": "Pre-sleep casein protein intake (30–40 g) provides increases in overnight MPS",
+     "claim": "dose: Casein 30–40 g"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "most athletes easily achieve total daily protein intake targets, even without considering protein supplementation",
+     "claim": "effect: Food first (AIS-Fact-Sheet Isolierte Proteine, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "As an alternative to whole foods and bulky meals when appetite is poor.",
+     "claim": "effect: Einsatzsituationen"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "No more than 40 g protein in one serving.",
+     "claim": "dose: max. 40 g"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "multi-ingredient products of this nature should be avoided since they are unnecessarily expensive and increase the potential for inadvertent doping/contamination",
+     "claim": "caution: Mehrkomponentenprodukte"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Biological value can be increased by mixing sources, fortifying with leucine and other amino acids or increasing the serve size",
+     "claim": "caution: pflanzlich mischen"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "carb_sports_foods",
+   "name": "Kohlenhydrat-Gels, -Drinks, -Riegel",
+   "evidence": "A",
+   "effect": "Halten Blutglukose und Kohlenhydratoxidation bei langen Belastungen aufrecht und verbessern die Ausdauerleistung; bei 45–75 min reichen kleine Mengen bzw. eine Mundspülung. Für Triathlon-Wettkämpfe zentral.",
+   "dose": "< 45 min: nicht nötig; 45–75 min: kleine Mengen/Mundspülung; 1–2,5 h: 30–60 g/h; > 2,5–3 h: bis 90 g/h als Glukose-Fruktose-Mischung (Multiple Transportable Carbohydrates).",
+   "use_when": [
+    "race",
+    "long_session",
+    "endurance_>90min"
+   ],
+   "caution": "Hohe Zufuhr (> 60 g/h) kann ohne Gewöhnung Magen-Darm-Beschwerden machen – Darm im Training schrittweise trainieren. Gels mit ausreichend Flüssigkeit nehmen; Zahnschmelz schützen (Mund mit Wasser spülen). Bei Fruktose-Malabsorption auf den Fruktosegehalt achten.",
+   "src": [
+    "jeukendrup2014",
+    "ais2021",
+    "maughan2018"
+   ],
+   "refs": [
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "45-75 min … Small amounts including mouth rinse … 1-2.5 h 30 – 60 g/h … >2.5-3 h Up to 90 g/h",
+     "claim": "dose: Zufuhr nach Dauer (AIS-Fact-Sheet Sportgels, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Products providing multiple transportable carbohydrates (glucose: fructose mixtures) will achieve high rates of carbohydrate absorption and oxidation",
+     "claim": "dose: Glukose-Fruktose"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "‘Gut training’ – deliberately consuming a gradually increasing volume and concentration of sports gels during workouts",
+     "claim": "caution: Darmtraining"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Sports gels should be consumed with adequate fluid to meet hydration needs and to improve gastrointestinal tolerance.",
+     "claim": "caution: mit Flüssigkeit"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "rinse out the mouth with water once the gel has been consumed",
+     "claim": "caution: Zähne"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Individuals with fructose malabsorption or FODMAP intolerance should be aware of the fructose content",
+     "claim": "caution: Fruktose"
+    },
+    {
+     "cite": "Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Med. 2014;44(Suppl 1):S25–S33. doi:10.1007/s40279-014-0148-z",
+     "url": "https://doi.org/10.1007/s40279-014-0148-z",
+     "quote": "during exercise lasting approximately 1 h in duration, a mouth rinse or small amounts of carbohydrate can result in a performance benefit",
+     "claim": "effect: Mundspülung"
+    },
+    {
+     "cite": "Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. Sports Med. 2014;44(Suppl 1):S25–S33. doi:10.1007/s40279-014-0148-z",
+     "url": "https://doi.org/10.1007/s40279-014-0148-z",
+     "quote": "For ultra-endurance events, the recommendation is higher at approximately 90 g/h.",
+     "claim": "dose: 90 g/h"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "It maintains blood glucose during exercise, lowers stress hormones",
+     "claim": "effect: Blutglukose"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "electrolytes",
+   "name": "Elektrolytgetränke / Salztabletten",
+   "evidence": "A",
+   "effect": "Ersetzen Natriumverluste über den Schweiß und unterstützen die Flüssigkeitsretention bei langen oder heißen Belastungen sowie die Rehydrierung danach. Die Schweißnatriumkonzentration schwankt stark (Ganzkörper ca. 10–70 mmol/l).",
+   "dose": "Allgemeine Empfehlung 0,5–0,7 g Natrium pro Liter Getränk (21–30 mmol/l); bei salzigem Schweiß oder Ultra-Belastungen ggf. mehr – der optimale Bedarf während Belastung ist wissenschaftlich unklar und individuell.",
+   "use_when": [
+    "long_session",
+    "endurance_>90min",
+    "race"
+   ],
+   "caution": "Schwere Hyponatriämie entsteht durch deutlich mehr Trinken als Schweißverlust – Salz verringert das nur geringfügig; die Ursache (zu viel trinken) muss direkt vermieden werden. Muskelkrämpfe sind multifaktoriell, Hauptrisiken sind Ermüdung durch ungewohnte Belastung und frühere Krämpfe; Natriummangel nur bei manchen Personen als Ursache diskutiert.",
+   "src": [
+    "ais2021",
+    "baker2017"
+   ],
+   "refs": [
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "General recommendations include 0.5–0.7 g per litre of fluid (21–30 mmol/L)",
+     "claim": "dose: 0,5–0,7 g/l (AIS-Fact-Sheet Elektrolyte, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Guidelines around the need, or optimal plan, for sodium intake during endurance (i.e. > 1 hour) and ultra-endurance exercise (i.e. >4 h) are unclear.",
+     "claim": "dose: Bedarf unklar"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "occurs when an athlete consumes fluid at a rate that is substantially higher than actual sweat losses",
+     "claim": "caution: Hyponatriämie-Ursache"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "sodium replacement in concert with “over drinking” behaviour may slightly reduce the degree … the underpinning cause … is excessive fluid intake",
+     "claim": "caution: Salz schützt kaum"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "primary risk factors including fatigue due to unaccustomed volume/intensity of exercise and previous history of cramps",
+     "claim": "caution: Krämpfe"
+    },
+    {
+     "cite": "Baker LB. Sweating rate and sweat sodium concentration in athletes: a review of methodology and intra/interindividual variability. Sports Med. 2017;47(Suppl 1):111–128. doi:10.1007/s40279-017-0691-5",
+     "url": "https://doi.org/10.1007/s40279-017-0691-5",
+     "quote": "whole-body sweat [Na + ] is approximately 10–70 mmol/L",
+     "claim": "effect: 10–70 mmol/l"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "vitamin_d",
+   "name": "Vitamin D",
+   "evidence": "A",
+   "effect": "Medizinisches Supplement zur Korrektur eines laborbestätigten Mangels. Effekte auf Muskelfunktion und Regeneration sind uneinheitlich und hängen vom Ausgangsstatus ab. Details und Laborziele siehe Mikronährstoffe.",
+   "dose": "Laborgesteuert, siehe Mikronährstoffe (nutrients: vitamin_d).",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "Keine Megadosen oder Bolusgaben, individuell dosieren. EFSA-UL für Erwachsene: 100 µg (4000 IE)/Tag aus allen Quellen. 25(OH)D vor Beginn und nach 1–2 Monaten Supplementierung erneut messen.",
+   "ref": "nutrients:vitamin_d",
+   "src": [
+    "maughan2018",
+    "ais2021",
+    "owens2018",
+    "efsa_vitd_ul2023"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Data on the effects of vitamin D supplementation on muscle function and recovery are equivocal, with discrepancies likely explained by differences in baseline vitamin D",
+     "claim": "effect: abhängig vom Ausgangsstatus"
+    },
+    {
+     "cite": "Owens DJ, Allison R, Close GL. Vitamin D and the athlete: current perspectives and new challenges. Sports Med. 2018;48(Suppl 1):3–16. doi:10.1007/s40279-017-0841-9",
+     "url": "https://doi.org/10.1007/s40279-017-0841-9",
+     "quote": "blanket approaches to supplementation, mega doses of vitamin D, bolus doses of vitamin D, and lack of consideration for an individualized approach should be avoided",
+     "claim": "caution: keine Mega-/Bolusdosen"
+    },
+    {
+     "cite": "EFSA NDA Panel. Scientific opinion on the tolerable upper intake level for vitamin D, including the derivation of a conversion factor for calcidiol monohydrate. EFSA J. 2023;21(8):8145. doi:10.2903/j.efsa.2023.8145",
+     "url": "https://doi.org/10.2903/j.efsa.2023.8145",
+     "quote": "The NDA Panel derived a UL of 100 μg/day for adults … that covered vitamin D intake from all food sources, including supplements.",
+     "claim": "caution: UL 100 µg"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Sources: 40 IU = 1 µg",
+     "claim": "caution: 100 µg = 4000 IE (AIS-Fact-Sheet Vitamin D, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "will require 2000 IU/day for 1-2 months to restore status. Thereafter, Vitamin D status should again be verified via a blood test",
+     "claim": "caution: Kontrolle nach 1–2 Monaten"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "iron",
+   "name": "Eisen",
+   "evidence": "A",
+   "effect": "Nur bei laborbestätigtem Eisenmangel (Ferritin, Transferrinsättigung, Hb) sinnvoll; ein Mangel kann Trainingsleistung und Trainingsanpassung beeinträchtigen. Auch bei Männern betroffen (ca. 5–11 % männlicher Sportlerkohorten), Ausdauersportler sind Risikogruppe. Details siehe Mikronährstoffe.",
+   "dose": "Laborgesteuert, siehe Mikronährstoffe (nutrients: iron).",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "Bei ausreichenden Eisenspeichern kein Nutzen, aber Risiko: Erbrechen, Durchfall, Bauchschmerzen bis hin zu Hämochromatose und Leberversagen. Nie prophylaktisch ohne Ferritin-/TSAT-Kontrolle.",
+   "ref": "nutrients:iron",
+   "src": [
+    "maughan2018",
+    "ais2021",
+    "sim2019"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "iron supplementation in those with already adequate iron stores can result in … vomiting, diarrhoea and abdominal pain, and develop to haemochromatosis and liver failure",
+     "claim": "caution: Risiko ohne Mangel"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Recommended measures: serum ferritin, transferrin saturation, serum iron, transferrin receptor, zinc protoporphyrin, haemoglobin",
+     "claim": "effect/caution: Labor"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "it may also manifest in reduced training and performance outcomes or a suppressed ability to respond/adapt to training stimuli",
+     "claim": "effect: Leistung/Anpassung (AIS-Fact-Sheet Eisen, Gruppe A)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "Minimum: serum ferritin, hemoglobin concentration, transferrin saturation",
+     "claim": "caution: Ferritin/TSAT"
+    },
+    {
+     "cite": "Sim M, Garvican-Lewis LA, Cox GR, et al. Iron considerations for the athlete: a narrative review. Eur J Appl Physiol. 2019;119(7):1463–1478. doi:10.1007/s00421-019-04157-y",
+     "url": "https://doi.org/10.1007/s00421-019-04157-y",
+     "quote": "approximately 5-11% of male athlete cohorts also present with this issue",
+     "claim": "effect: Männer 5–11 %"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "probiotics",
+   "name": "Probiotika",
+   "evidence": "B",
+   "effect": "Bestimmte Stämme können Häufigkeit, Schwere und Dauer von Atemwegsinfekten senken; mögliche Senkung von Reisedurchfall/Magen-Darm-Infekten, für Magen-Darm-Beschwerden beim Sport ist mehr Evidenz nötig. Wirkung ist stamm- und dosisabhängig.",
+   "dose": "Ca. 10⁸–10¹⁰ KBE/Tag (IOC: ~10¹⁰ lebende Bakterien) eines Stammes mit Studiendaten, Beginn ca. 14 Tage vor Reise/Wettkampfblock, täglich durchgehend.",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "In der ersten Woche teils Blähungen, Darmgeräusche oder Stuhlveränderungen – langsam über 1–2 Wochen steigern. Produktqualität (Keimzahl, Stämme) schwankt. Bei Immunschwäche, schwerer Erkrankung oder Magen-Darm-Erkrankung nur nach ärztlicher Rücksprache (dort traten Nebenwirkungen am ehesten auf).",
+   "src": [
+    "maughan2018",
+    "jager2019",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Moderate support in athletes with daily dose of ~10 10 live bacteria",
+     "claim": "dose: ~10¹⁰"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Cochrane review of 12 studies (n=3720) shows ~50% decrease in URS incidence and ~2 day shortening of URS",
+     "claim": "effect: Atemwegsinfekte"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Probiotic supplementation may reduce the incidence of travellers’ diarrhoea and gastrointestinal infection.",
+     "claim": "effect: Reisedurchfall"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "More evidence is required supporting efficacy to reduce gastrointestinal distress and infection",
+     "claim": "effect: GI unsicher"
+    },
+    {
+     "cite": "Jäger R, Mohr AE, Carpenter KC, et al. International Society of Sports Nutrition position stand: probiotics. J Int Soc Sports Nutr. 2019;16(1):62. doi:10.1186/s12970-019-0329-0",
+     "url": "https://doi.org/10.1186/s12970-019-0329-0",
+     "quote": "specific probiotic strains can reduce the number of episodes, severity and duration of upper respiratory tract infections",
+     "claim": "effect: Stämme, Infekte"
+    },
+    {
+     "cite": "Jäger R, Mohr AE, Carpenter KC, et al. International Society of Sports Nutrition position stand: probiotics. J Int Soc Sports Nutr. 2019;16(1):62. doi:10.1186/s12970-019-0329-0",
+     "url": "https://doi.org/10.1186/s12970-019-0329-0",
+     "quote": "health benefits of probiotics are strain- and dose-dependent",
+     "claim": "effect: stamm-/dosisabhängig"
+    },
+    {
+     "cite": "Jäger R, Mohr AE, Carpenter KC, et al. International Society of Sports Nutrition position stand: probiotics. J Int Soc Sports Nutr. 2019;16(1):62. doi:10.1186/s12970-019-0329-0",
+     "url": "https://doi.org/10.1186/s12970-019-0329-0",
+     "quote": "probiotic supplementation should be implemented for at least 14 days prior to competition or important events",
+     "claim": "dose: 14 Tage vorher"
+    },
+    {
+     "cite": "Jäger R, Mohr AE, Carpenter KC, et al. International Society of Sports Nutrition position stand: probiotics. J Int Soc Sports Nutr. 2019;16(1):62. doi:10.1186/s12970-019-0329-0",
+     "url": "https://doi.org/10.1186/s12970-019-0329-0",
+     "quote": "critically ill patients, postoperative and hospitalized patients and immunocompromised patients were the most at-risk groups wherein AEs occurred",
+     "claim": "caution: Risikogruppen"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Sport and exercise researched doses range from x108 to x1010 CFU (Colony Forming Units)/day",
+     "claim": "dose: 10⁸–10¹⁰ KBE (AIS-Fact-Sheet Probiotika, Gruppe B)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "mild symptoms of stomach rumbles, increased flatulence or changes in the stool during the first week of supplementation",
+     "claim": "caution: Anfangsbeschwerden"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Some products may not provide sufficient numbers or types of probiotics.",
+     "claim": "caution: Produktqualität"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "tart_cherry",
+   "name": "Sauerkirschsaft (Montmorency)",
+   "evidence": "B",
+   "effect": "Polyphenolreich; kann Muskelkater und Kraftverlust nach muskelschädigender Belastung mildern und die Regeneration bei dicht aufeinanderfolgenden Wettkämpfen unterstützen. Metaanalyse: kleiner Vorteil für die Ausdauerleistung (SMD 0,36), Datenlage begrenzt.",
+   "dose": "2 × täglich 30 ml Konzentrat (oder 2 × 250–350 ml Saft) für 4–5 Tage (AIS: 4–7) vor dem Wettkampf bzw. 2–3 Tage danach.",
+   "use_when": [
+    "race"
+   ],
+   "caution": "Nur phasenweise einsetzen – hohe Dosen antioxidativer/entzündungshemmender Stoffe können die Trainingsanpassung verringern, daher nicht im normalen Trainingsalltag. Kirschen wirken abführend; zuerst außerhalb von Belastung testen.",
+   "src": [
+    "maughan2018",
+    "gao2020",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "about 250–350 mL (30 mL if concentrate) twice daily for 4–5 days before an athletic event or for 2–3 days afterwards",
+     "claim": "dose"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "More research is needed before these compounds can be recommended to athletes.",
+     "claim": "evidence: B"
+    },
+    {
+     "cite": "Gao R, Chilibeck PD. Effect of tart cherry concentrate on endurance exercise performance: a meta-analysis. J Am Coll Nutr. 2020;39(7):657–664. doi:10.1080/07315724.2020.1713246",
+     "url": "https://doi.org/10.1080/07315724.2020.1713246",
+     "quote": "significantly improved endurance exercise performance (SMD: 0.36; 95% CI: 0.07 to 0.64; p = 0.01",
+     "claim": "effect: Ausdauer"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "tart cherry juice concentrate, 30ml twice a day) for 4-7 days before and throughout the period of competition",
+     "claim": "dose: AIS 4–7 Tage (AIS-Fact-Sheet Fruchtpolyphenole, Gruppe B)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "supplementation of high doses of these fruit-derived polyphenols is NOT recommended during day- to-day training periods",
+     "claim": "caution: nicht im Trainingsalltag"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Cherries are known to have a laxative effect",
+     "claim": "caution: abführend"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "curcumin",
+   "name": "Curcumin",
+   "evidence": "B",
+   "effect": "Entzündungshemmend; Studien zeigen überwiegend etwas weniger Muskelkater (DOMS) nach belastungsbedingtem Muskelschaden. Für direkte Leistungssteigerung keine belastbare Evidenz (AIS: Gruppe B).",
+   "dose": "Keine Standardempfehlung. AIS: 2 Dosen/Tag à 500–2500 mg Curcumin (bzw. 200–1000 mg Curcuminoide in Hybridprodukten) für 2–5 Tage vor der Belastung; Sicherheit über 2 g/Tag unsicher, max. 8 g/Tag.",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "Fälle von teils schweren Leberschäden durch Kurkuma-Präparate (Latenz 1–4 Monate), häufiger mit Piperin (schwarzer Pfeffer) kombiniert. Zusatzstoffe in Spezialformulierungen: Dopingrisiko beachten. Langzeiteffekte auf die Trainingsanpassung unbekannt.",
+   "src": [
+    "maughan2018",
+    "ais2021",
+    "halegoua2023"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Curcumin (a constituent of the spice turmeric) is often ingested for anti-inflammatory effects at a dose of about 5 g/day.",
+     "claim": "dose: Hintergrund IOC"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "More research is needed before these compounds can be recommended to athletes.",
+     "claim": "effect/evidence"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Reduced pain following heavy muscular exercise loading is reported by way of lower DOMS or other muscle soreness scores in most",
+     "claim": "effect: DOMS (AIS-Fact-Sheet Curcumin, Gruppe B)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "2-5 day supplementation at a high dose (2 x 500-2500 mg of curcumin per day; or … around 200-1000 mg of curcuminoids per dose)",
+     "claim": "dose"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "There is uncertainty on the safety of curcumin larger than 2g/day and no more than 8 g of total curcumin should be taken per day.",
+     "claim": "dose: 2 g / 8 g"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Advanced formulations often carry additive and adjunct compounds that may be bioactive. Sports dietitians and athletes should be cautious in regards to inadvertent doping.",
+     "claim": "caution: Doping"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "coaches and athletes should be aware that the long-term effects of curcumin on training adaptation is unknown",
+     "claim": "caution: Anpassung"
+    },
+    {
+     "cite": "Halegoua-DeMarzio D, Navarro V, Ahmad J, et al. Liver injury associated with turmeric – a growing problem: ten cases from the Drug-Induced Liver Injury Network [DILIN]. Am J Med. 2023;136(2):200–206. doi:10.1016/j.amjmed.2022.09.026",
+     "url": "https://doi.org/10.1016/j.amjmed.2022.09.026",
+     "quote": "Turmeric causes potentially severe liver injury that is typically hepatocellular, with a latency of 1 to 4 months",
+     "claim": "caution: Leber"
+    },
+    {
+     "cite": "Halegoua-DeMarzio D, Navarro V, Ahmad J, et al. Liver injury associated with turmeric – a growing problem: ten cases from the Drug-Induced Liver Injury Network [DILIN]. Am J Med. 2023;136(2):200–206. doi:10.1016/j.amjmed.2022.09.026",
+     "url": "https://doi.org/10.1016/j.amjmed.2022.09.026",
+     "quote": "perhaps reflecting usage patterns or increased combination with black pepper",
+     "claim": "caution: Piperin"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "antioxidants_high_dose",
+   "name": "Hochdosierte Antioxidanzien (Vitamin C/E)",
+   "evidence": "C",
+   "effect": "Kein Leistungsnutzen; 1000 mg Vitamin C + 235 mg Vitamin E täglich über 11 Wochen verhinderten in einer RCT den Anstieg mitochondrialer Marker (COX4, PGC-1α) durch Ausdauertraining, ohne die VO₂max-Zunahme zu verändern. Ausnahme: Vitamin C (0,25–1 g/Tag) kann in Phasen sehr hoher Belastung Atemwegsinfekte reduzieren (AIS: Vitamin C Gruppe B, Vitamin E Gruppe C).",
+   "dose": "Keine Dauersupplementierung empfohlen; Bedarf über Obst und Gemüse decken.",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "Hohe Einzeldosen, v. a. Vitamin C und E, können belastungsinduzierte Trainingsanpassungen abschwächen. Vitamin-C-Tabletten (meist ~1000 mg) waren bei Männern mit einem etwa doppelt so hohen Nierensteinrisiko verbunden (Beobachtungsstudie).",
+   "src": [
+    "paulsen2014",
+    "maughan2018",
+    "ais2021",
+    "thomas2013"
+   ],
+   "refs": [
+    {
+     "cite": "Paulsen G, Cumming KT, Holden G, et al. Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial. J Physiol. 2014;592(8):1887–1901. doi:10.1113/jphysiol.2013.267419",
+     "url": "https://doi.org/10.1113/jphysiol.2013.267419",
+     "quote": "receive either 1000 mg of vitamin C and 235 mg of vitamin E or a placebo daily for 11 weeks",
+     "claim": "effect: Dosis der RCT"
+    },
+    {
+     "cite": "Paulsen G, Cumming KT, Holden G, et al. Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial. J Physiol. 2014;592(8):1887–1901. doi:10.1113/jphysiol.2013.267419",
+     "url": "https://doi.org/10.1113/jphysiol.2013.267419",
+     "quote": "Daily vitamin C and E supplementation attenuated increases in markers of mitochondrial biogenesis following endurance training.",
+     "claim": "effect/caution: Anpassung"
+    },
+    {
+     "cite": "Paulsen G, Cumming KT, Holden G, et al. Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial. J Physiol. 2014;592(8):1887–1901. doi:10.1113/jphysiol.2013.267419",
+     "url": "https://doi.org/10.1113/jphysiol.2013.267419",
+     "quote": "no clear interactions were detected for improvements in VO2 max and running performance",
+     "claim": "effect: VO₂max unverändert"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "high doses of single antioxidants, particularly vitamins C and E, may blunt exercise-induced training adaptations",
+     "claim": "caution"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Cochrane review of 5 studies in heavy exercisers (n=598) shows ~50% decrease in URS taking vitamin C (0.25–1.0 g/day).",
+     "claim": "effect: Vitamin C Infekte"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+     "quote": "Vitamin E … Current AIS Supplement Framework Classification: Group B Agreed AIS Supplement Framework Classification: Group C",
+     "claim": "evidence: Vitamin E Gruppe C"
+    },
+    {
+     "cite": "Thomas LD, Elinder CG, Tiselius HG, Wolk A, Åkesson A. Ascorbic acid supplements and kidney stone incidence among men: a prospective study. JAMA Intern Med. 2013;173(5):386–388. doi:10.1001/jamainternmed.2013.2296",
+     "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1568519",
+     "quote": "Ascorbic acid use was associated with a statistically significant 2-fold increased risk",
+     "claim": "caution: Nierensteine"
+    },
+    {
+     "cite": "Thomas LD, Elinder CG, Tiselius HG, Wolk A, Åkesson A. Ascorbic acid supplements and kidney stone incidence among men: a prospective study. JAMA Intern Med. 2013;173(5):386–388. doi:10.1001/jamainternmed.2013.2296",
+     "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1568519",
+     "quote": "ascorbic acid preparations available on the Swedish market typically contain 1000 mg of ascorbic acid per tablet",
+     "claim": "caution: ~1000 mg"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "bcaa",
+   "name": "BCAA (verzweigtkettige Aminosäuren)",
+   "evidence": "C",
+   "effect": "Allein keine relevante Steigerung der Muskelproteinsynthese, da dafür alle essenziellen Aminosäuren nötig sind. Bei ausreichender Proteinzufuhr kein Zusatznutzen (AIS: Gruppe C).",
+   "dose": "Nicht empfohlen – stattdessen vollständiges Protein (≈ 0,25–0,3 g/kg bzw. 20–40 g pro Portion).",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "Als Einzelsupplement unnötig; Rohstoffherkunft auf der Packung oft nicht erkennbar (u. a. aus Federn/Haaren oder fermentiert). Kontaminationsrisiko wie bei allen Pulvern.",
+   "src": [
+    "wolfe2017",
+    "jager2017",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Wolfe RR. Branched-chain amino acids and muscle protein synthesis in humans: myth or reality? J Int Soc Sports Nutr. 2017;14:30. doi:10.1186/s12970-017-0184-9",
+     "url": "https://doi.org/10.1186/s12970-017-0184-9",
+     "quote": "the claim that consumption of dietary BCAAs stimulates muscle protein synthesis or produces an anabolic response in human subjects is unwarranted",
+     "claim": "effect"
+    },
+    {
+     "cite": "Wolfe RR. Branched-chain amino acids and muscle protein synthesis in humans: myth or reality? J Int Soc Sports Nutr. 2017;14:30. doi:10.1186/s12970-017-0184-9",
+     "url": "https://doi.org/10.1186/s12970-017-0184-9",
+     "quote": "A physiologically-significant increase in the rate of muscle protein synthesis requires adequate availability of all amino acid precursors.",
+     "claim": "effect: alle EAA nötig"
+    },
+    {
+     "cite": "Jäger R, Kerksick CM, Campbell BI, et al. International Society of Sports Nutrition position stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20. doi:10.1186/s12970-017-0177-8",
+     "url": "https://doi.org/10.1186/s12970-017-0177-8",
+     "quote": "General recommendations are 0.25 g of a high-quality protein per kg of body weight, or an absolute dose of 20–40 g.",
+     "claim": "dose: Alternative"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+     "quote": "Branched-chain amino acids (BCAA) … Current AIS Supplement Framework Classification: Group B Agreed AIS Supplement Framework Classification: Group C",
+     "claim": "evidence: C"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_c",
+     "quote": "The sources of the protein from which BCAA/ LEU are derived from are not immediately apparent on the packaging of many products.",
+     "claim": "caution: Herkunft"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_a",
+     "quote": "unnecessary in animal protein sources or as an isolated supplement themselves",
+     "claim": "caution: unnötig (AIS-Fact-Sheet Isolierte Proteine)"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "ketone_esters",
+   "name": "Ketonester",
+   "evidence": "B",
+   "effect": "Erhöhen β-Hydroxybutyrat im Blut rasch; mehrere Metaanalysen zeigen keinen Leistungsvorteil (Sprints bis ~50 min). Regenerations-/Anpassungseffekte sind nicht einheitlich belegt. AIS: Gruppe B (Forschungsstatus).",
+   "dose": "Nicht empfohlen; Studien nutzten ca. 350–1000 mg/kg (≈ 25–75 g).",
+   "use_when": [
+    "never_default"
+   ],
+   "caution": "Ketonsalze und 1,3-Butandiol: Übelkeit und teils starke Magen-Darm-Beschwerden, hohe Salzlast; Ketonester meist besser verträglich, aber teuer. Nicht auf der WADA-Verbotsliste.",
+   "src": [
+    "valenzuela2020",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Valenzuela PL, Morales JS, Castillo-García A, Lucia A. Acute ketone supplementation and exercise performance: a systematic review and meta-analysis of randomized controlled trials. Int J Sports Physiol Perform. 2020;15(3):298–308. doi:10.1123/ijspp.2019-0918",
+     "url": "https://doi.org/10.1123/ijspp.2019-0918",
+     "quote": "ketone supplementation exerts no clear influence on exercise performance (from sprints to events lasting up to ∼50 min)",
+     "claim": "effect"
+    },
+    {
+     "cite": "Valenzuela PL, Morales JS, Castillo-García A, Lucia A. Acute ketone supplementation and exercise performance: a systematic review and meta-analysis of randomized controlled trials. Int J Sports Physiol Perform. 2020;15(3):298–308. doi:10.1123/ijspp.2019-0918",
+     "url": "https://doi.org/10.1123/ijspp.2019-0918",
+     "quote": "All studies reported increases in plasma ketone concentration after acute ketone supplementation",
+     "claim": "effect: β-HB steigt"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Multiple meta-analyses … have failed to show benefits to sports performance.",
+     "claim": "effect (AIS-Fact-Sheet Ketone, Gruppe B)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements",
+     "quote": "The doses investigated are highly variable, ranging from ~25-75 g (~350-1000 mg·kg-1 body mass).",
+     "claim": "dose: 350–1000 mg/kg"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Investigations of the chronic or periodic use of ketone esters have failed to establish a consistent protocol",
+     "claim": "effect: Regeneration"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Ketone salts and the 1-3-Butanediol have been associated with side-effects including nausea and GI upset",
+     "claim": "caution"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Ketone esters are salt-free, generally well-tolerated",
+     "claim": "caution: Ester verträglicher"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Ketone ester supplements are not included on the WADA Prohibited List",
+     "claim": "caution: WADA"
+    }
+   ],
+   "verified": "2026-11-07"
+  },
+  {
+   "id": "collagen_vitc",
+   "name": "Kollagen/Gelatine + Vitamin C",
+   "evidence": "B",
+   "effect": "Kann die Kollagensynthese steigern, wenn es vor gezielter Belastung eingenommen wird; funktionelle Vorteile, Verletzungsheilung und Effekte bei Spitzensportlern sind nicht belegt. Option bei Reha oder Sehnen-/Bandproblemen.",
+   "dose": "IOC: 5–15 g Gelatine mit 50 mg Vitamin C (Kollagenhydrolysat ~10 g/Tag); AIS: 20–30 g Kollagen/Tag, ca. 40–60 min vor Training oder Reha-Einheit. Studienprotokoll: 15 g Gelatine 1 h vor 6 min Seilspringen, 3×/Tag mit ≥ 6 h Abstand.",
+   "use_when": [
+    "strength"
+   ],
+   "caution": "Tierisches Produkt – für vegetarische/vegane Ernährung ungeeignet, pflanzliche Alternativen nicht belegt. Vitamin C nicht dauerhaft hochdosiert zusetzen (kann Trainingsanpassung beeinträchtigen); Versorgung über die Ernährung prüfen.",
+   "src": [
+    "maughan2018",
+    "shaw2017",
+    "ais2021"
+   ],
+   "refs": [
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Recommended dose is 5–15 g gelatin with 50 mg vitamin C. … Collagen hydrolysate dose is about 10 g/day.",
+     "claim": "dose: IOC"
+    },
+    {
+     "cite": "Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. Br J Sports Med. 2018;52(7):439–455. doi:10.1136/bjsports-2018-099027",
+     "url": "https://doi.org/10.1136/bjsports-2018-099027",
+     "quote": "Functional benefits, recovery from injury, and effects in elite athletes are not known.",
+     "claim": "effect"
+    },
+    {
+     "cite": "Shaw G, Lee-Barthel A, Ross ML, Wang B, Baar K. Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis. Am J Clin Nutr. 2017;105(1):136–143. doi:10.3945/ajcn.116.138594",
+     "url": "https://doi.org/10.3945/ajcn.116.138594",
+     "quote": "Subjects who took 15 g gelatin 1 h before exercise showed double the amino-terminal propeptide of collagen I in their blood",
+     "claim": "effect/dose: 15 g, 1 h"
+    },
+    {
+     "cite": "Shaw G, Lee-Barthel A, Ross ML, Wang B, Baar K. Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis. Am J Clin Nutr. 2017;105(1):136–143. doi:10.3945/ajcn.116.138594",
+     "url": "https://doi.org/10.3945/ajcn.116.138594",
+     "quote": "the subjects completed 6 min of rope-skipping … repeated 3 times/d with ≥6 h between exercise bouts",
+     "claim": "dose: Protokoll"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "> How much: 20-30 g/d.",
+     "claim": "dose: AIS (AIS-Fact-Sheet Kollagen, Gruppe B)"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Consumed 40-60 minutes prior to exercise to: o Help to support collagen turnover in connective tissue",
+     "claim": "dose: 40–60 min"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Collagen protein is animal-derived and therefore may not be appropriate for vegetarian/vegan athletes.",
+     "claim": "caution: tierisch"
+    },
+    {
+     "cite": "Australian Institute of Sport. AIS Sports Supplement Framework: Gruppen A–D mit Practitioner Fact Sheets. Canberra: Australian Sports Commission; online, abgerufen 2026-11-07. https://www.ausport.gov.au/ais/nutrition/supplements",
+     "url": "https://www.ausport.gov.au/ais/nutrition/supplements/group_b",
+     "quote": "Chronic Vitamin C supplementation may impair physiological adaptation (see Vitamin C). Adequacy of dietary derived Vitamin C should be confirmed.",
+     "claim": "caution: Vitamin C"
+    }
+   ],
+   "verified": "2026-11-07"
+  }
+ ]
+}

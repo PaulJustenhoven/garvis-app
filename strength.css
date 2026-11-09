@@ -1,0 +1,245 @@
+/* Krafttraining, Bestandsaufnahme, Orte & Ausstattung (strength.js) – nutzt die CSS-Variablen aus index.html */
+
+/* ---------- Heute: Übungsliste ---------- */
+.sx { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--grid); }
+.sxhead .chead .r { font-size: 0.765rem; }
+.sxsub { font-size: 0.765rem; line-height: 1.4; color: var(--text-secondary); margin-top: 4px; }
+.sxneed { display: grid; grid-template-columns: 20px 1fr 14px; gap: 8px; align-items: start; margin-top: 12px; padding: 10px 12px; border-radius: 12px; text-decoration: none;
+  background: color-mix(in srgb, var(--warning) 14%, var(--surface-2)); font-size: 0.765rem; color: var(--text-secondary); }
+.sxneed b { display: block; color: var(--text-primary); font-weight: 600; font-size: 0.824rem; }
+.sxneed svg.ic { width: 18px; height: 18px; margin-top: 1px; }
+.sxneed svg.ic:last-child { width: 14px; height: 14px; margin-top: 3px; color: var(--text-muted); }
+.sxlist { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 0; }
+.sxe { padding: 14px 0; border-top: 1px solid var(--grid); }
+.sxe:first-child { border-top: 0; }
+.sxh { display: grid; grid-template-columns: 26px 1fr auto; gap: 10px; align-items: start; }
+.sxn { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); font: 600 0.706rem var(--mono); color: var(--text-secondary); }
+.sxe.all .sxn { background: color-mix(in srgb, var(--good) 22%, var(--surface-2)); color: var(--text-primary); }
+.sxt { min-width: 0; }
+.sxt b { font-weight: 600; font-size: 0.941rem; overflow-wrap: anywhere; }
+.sxrx { font-size: 0.882rem; margin-top: 1px; font-variant-numeric: tabular-nums; }
+.sxh .pill { margin-top: 2px; white-space: nowrap; }
+.pill.ok { color: var(--text-primary); }
+.pill.ok svg.ic, .pill svg.ic { width: 12px; height: 12px; color: var(--good-text); }
+.pill.warn { color: var(--text-primary); background: color-mix(in srgb, var(--warning) 22%, var(--surface-2)); }
+.sxmeta { font: 400 0.706rem/1.5 var(--mono); color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin: 6px 0 0 36px; }
+.sxnote { margin: 6px 0 0 36px; font-size: 0.794rem; color: var(--text-secondary); }
+.sxlast, .sxalt { display: grid; grid-template-columns: 16px 1fr; gap: 6px; align-items: start; margin: 6px 0 0 36px; font-size: 0.765rem; color: var(--text-secondary); }
+.sxlast svg.ic, .sxalt svg.ic { width: 14px; height: 14px; margin-top: 2px; color: var(--text-muted); }
+.sxlast b { color: var(--text-primary); font-weight: 600; font-variant-numeric: tabular-nums; }
+.sxsets { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 8px; margin: 12px 0 0; }
+@media (min-width: 600px) { .sxsets { grid-template-columns: repeat(auto-fill, minmax(104px, 128px)); margin-left: 36px; } .sxed { margin-left: 36px !important; } }
+.sxset { font: inherit; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; min-width: 0; padding: 6px 10px 6px 6px; border-radius: 14px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary); }
+.sxset .k { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); font: 600 0.765rem var(--mono); color: var(--text-secondary); }
+.sxset .k svg.ic { width: 16px; height: 16px; stroke-width: 2.4; }
+.sxset .v { font-size: 0.824rem; font-variant-numeric: tabular-nums; }
+.sxset .v small { font-size: 0.706rem; color: var(--text-muted); margin: 0 2px; }
+.sxset.done { color: var(--text-primary); background: var(--surface-2); border-color: transparent; }
+.sxset.done .k { background: var(--good); color: #fff; }
+.sxset.on { border-color: color-mix(in srgb, var(--text-primary) 60%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text-primary) 60%, transparent); }
+.sxset:focus-visible, .sxpm:focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; }
+/* Satz-Editor */
+.sxed { margin: 12px 0 0; padding: 12px; border-radius: 16px; background: var(--surface-2); display: grid; gap: 10px; }
+.sxedh { display: flex; align-items: center; justify-content: space-between; font-size: 0.824rem; }
+.sxx, .sxlink { font: inherit; font-size: 0.765rem; font-weight: 600; color: var(--text-secondary); background: none; border: 0; padding: 6px 4px; cursor: pointer; min-height: 44px; min-width: 44px; }
+.sxlink { justify-self: center; }
+.sxst { display: grid; grid-template-columns: 48px minmax(0, 1fr) 48px; gap: 6px 8px; align-items: center; }
+.sxst .l { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 8px; }
+@media (min-width: 600px) { .sxst { grid-template-columns: minmax(0, 1fr) 48px minmax(84px, 120px) 48px; } .sxst .l { grid-column: auto; display: block; } }
+.sxst .l { font-size: 0.824rem; color: var(--text-secondary); min-width: 0; }
+.sxst .l small { font-size: 0.706rem; color: var(--text-muted); line-height: 1.3; }
+@media (min-width: 600px) { .sxst .l small { display: block; } }
+.sxpm { width: 48px; height: 48px; border-radius: 14px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); display: grid; place-items: center; cursor: pointer; padding: 0; touch-action: manipulation; }
+.sxpm svg.ic { width: 20px; height: 20px; stroke-width: 2.2; }
+.sxpm:active { background: var(--surface-2); }
+.sxv { display: flex; align-items: baseline; justify-content: center; gap: 3px; height: 48px; border-radius: 14px; background: var(--surface-1); border: 1px solid var(--border); padding: 0 8px; min-width: 0; cursor: text; }
+.sxv input { font: 600 1.176rem/46px system-ui, -apple-system, sans-serif; width: 100%; min-width: 0; text-align: right; border: 0; background: none; color: var(--text-primary); padding: 0; font-variant-numeric: tabular-nums; -webkit-appearance: none; appearance: none; }
+.sxv input:focus { outline: none; }
+.sxv:focus-within { outline: 2px solid color-mix(in srgb, var(--s1) 60%, transparent); border-color: transparent; }
+.sxv input::placeholder { color: var(--text-muted); font-weight: 500; font-size: 0.882rem; }
+.sxv small { font-size: 0.706rem; color: var(--text-muted); white-space: nowrap; flex: none; }
+.sxdone { width: 100%; display: inline-flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; min-height: 52px; }
+.sxdone svg.ic { width: 20px; height: 20px; stroke-width: 2.4; }
+.sxdone small { font-size: 0.735rem; font-weight: 500; opacity: .85; flex-basis: 100%; margin-top: -4px; }
+details.sxnotebox { margin: 10px 0 0 36px; }
+details.sxnotebox > summary { list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 0.765rem; font-weight: 600; color: var(--text-secondary); min-height: 44px; }
+details.sxnotebox > summary::-webkit-details-marker { display: none; }
+details.sxnotebox > summary .muted { font-weight: 400; }
+details.sxnotebox svg.ic { width: 15px; height: 15px; }
+.sxnotebox textarea { font: inherit; font-size: 0.941rem; width: 100%; margin-top: 6px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); resize: vertical; }
+.sxnotebox textarea:focus { outline: 2px solid color-mix(in srgb, var(--s1) 60%, transparent); border-color: transparent; }
+.sxfoot { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 6px; padding-top: 14px; border-top: 1px solid var(--grid); font-size: 0.765rem; }
+.sxfoot .btn { flex: 1 1 auto; }
+@media (min-width: 900px) { .sxfoot .btn { flex: 0 0 auto; } }
+.sxfootw .hint.queued svg.ic { color: var(--text-secondary); }
+
+/* + Satz, Alternativen, Übung hinzufügen, freies Krafttraining, Signal am Pausenende (alle Ziele ≥ 44 px) */
+.sxplus { justify-content: center; gap: 4px; padding: 6px 10px; border-style: dashed; background: none; color: var(--text-secondary); font-weight: 600; font-size: 0.824rem; }
+.sxplus svg.ic { width: 16px; height: 16px; stroke-width: 2.2; }
+.sxchip { font: inherit; font-size: 0.794rem; font-weight: 600; min-height: 44px; padding: 0 14px; border-radius: 22px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); cursor: pointer; touch-action: manipulation; }
+.sxchip[aria-pressed="true"] { background: var(--surface-2); border-color: color-mix(in srgb, var(--text-primary) 55%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text-primary) 55%, transparent); }
+.sxchip[aria-pressed="true"]::before { content: ""; display: inline-block; width: 9px; height: 5px; border-left: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg) translate(1px, -2px); margin-right: 7px; }
+.sxchip:focus-visible, .sxplus:focus-visible, .sxlink:focus-visible, .sxx:focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; }
+.sxaltl > div { display: grid; gap: 6px; min-width: 0; }
+.sxaltb { display: flex; flex-wrap: wrap; gap: 8px; }
+.sxrmex { display: inline-flex; align-items: center; gap: 6px; margin: 4px 0 0 36px; }
+.sxrmex svg.ic { width: 15px; height: 15px; }
+.sxh .pill.warn { white-space: normal; max-width: 10.5em; text-align: right; line-height: 1.3; }
+.sxaddex { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; margin-top: 12px; }
+.sxaddex input { font: inherit; font-size: 16px; min-width: 0; min-height: 44px; padding: 8px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); -webkit-appearance: none; appearance: none; }
+.sxaddex input:focus { outline: 2px solid color-mix(in srgb, var(--s1) 60%, transparent); border-color: transparent; }
+.sxaddex .txtbtn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; }
+.sxaddex .txtbtn svg.ic { width: 16px; height: 16px; }
+.sxempty { margin: 12px 0 0; }
+.sxfree { display: grid; gap: 6px; }
+.sxfree .sxadd { margin-top: 0; }
+.sxfree p { margin: 0; font-size: 0.765rem; }
+.sxsnd { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 10px; font-size: 0.765rem; }
+.sxsnd .muted { margin-right: auto; }
+.sxretry { min-height: 44px; }
+
+/* Pausen-Timer: schwebt über der Tab-Leiste */
+.sxtimer { position: fixed; left: 14px; right: 14px; bottom: calc(86px + env(safe-area-inset-bottom)); z-index: 19; max-width: 520px; margin: 0 auto;
+  background: var(--surface-1); border: 1px solid var(--border); border-radius: 18px; box-shadow: 0 6px 24px rgba(0,0,0,.14); overflow: hidden; }
+.sxtimer[hidden] { display: none !important; }
+.sxtm { display: grid; grid-template-columns: 22px minmax(0, 1fr) auto auto auto; gap: 8px; align-items: center; padding: 8px 8px 8px 12px; }
+.sxtm .ic0 svg.ic { width: 20px; height: 20px; color: var(--text-secondary); }
+.sxtl { min-width: 0; display: grid; }
+.sxtl .k { font: 500 0.706rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); }
+.sxtl .lab { font-size: 0.765rem; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sxtm .tv { font-size: 1.412rem; font-variant-numeric: tabular-nums; min-width: 62px; text-align: right; }
+.sxtm button { font: inherit; font-size: 0.765rem; font-weight: 600; min-height: 44px; min-width: 44px; padding: 0 10px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-primary); cursor: pointer; }
+.sxtbar { height: 4px; background: color-mix(in srgb, var(--q4) 22%, var(--surface-2)); }
+.sxtbar > div { height: 100%; background: var(--q4); transition: width .25s linear; }
+.sxtimer.over { border-color: color-mix(in srgb, var(--good) 60%, transparent); }
+.sxtimer.over .sxtbar > div { background: var(--good); }
+@media (min-width: 900px) { .sxtimer { bottom: 20px; right: 20px; left: auto; width: 400px; } }
+
+/* Woche */
+.sxwk { display: grid; grid-template-columns: 16px 1fr; gap: 6px; align-items: start; margin-top: 8px; font-size: 0.765rem; color: var(--text-secondary); }
+.sxwk svg.ic { width: 15px; height: 15px; margin-top: 2px; }
+.sxwk b { color: var(--text-primary); font-weight: 600; }
+
+/* ---------- Mehr › Krafttraining ---------- */
+#sxStatus .hint { margin: 0 0 14px; }
+.sxtiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 12px; margin: 12px 0 6px; }
+@media (min-width: 900px) { .sxtiles { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.sxtiles .rstat .v { font-variant-numeric: normal; }
+.sxtab td { vertical-align: top; }
+.sxtab td:nth-child(2) { white-space: normal; min-width: 140px; }
+.sxtn { color: var(--text-muted); font-size: 0.706rem; margin-top: 2px; }
+.sxrl > li { display: block; }
+.sxrl ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; }
+.sxrl ul li { display: flex; justify-content: space-between; gap: 12px; font-size: 0.765rem; color: var(--text-secondary); }
+.sxrl ul li .num { font-weight: 500; color: var(--text-primary); text-align: right; font-variant-numeric: tabular-nums; }
+.setrow a.txtbtn { text-decoration: none; }
+
+/* Bestandsaufnahme */
+.sxbrow { padding: 14px 0; border-top: 1px solid var(--grid); }
+.sxbrow:first-child { border-top: 0; }
+.sxbh { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.sxbh b { font-weight: 600; font-size: 0.941rem; }
+.sxbrow .sxnote { margin: 4px 0 0; }
+.sxbin { display: grid; gap: 8px; margin-top: 10px; }
+@media (min-width: 900px) { .sxbin { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; } }
+
+/* ---------- Orte & Ausstattung ---------- */
+.sxlocs { display: grid; gap: 14px; }
+.sxloc { display: grid; gap: 14px; }
+.sxloch { display: flex; align-items: flex-end; gap: 12px; }
+.sxloch .mi { width: 36px; height: 44px; border-radius: 10px; display: grid; place-items: center; color: var(--text-secondary); flex: none; }
+.sxloch .field input { font-weight: 600; }
+.sxico { width: 44px; height: 44px; flex: none; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary); display: grid; place-items: center; cursor: pointer; }
+.sxhome { position: relative; display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: center; padding: 10px 12px; border: 1px solid var(--border); border-radius: 14px; cursor: pointer; }
+.sxhome input { width: 20px; height: 20px; margin: 0; accent-color: var(--s1); }
+.sxhome b { display: block; font-weight: 600; font-size: 0.824rem; }
+.sxhome small { color: var(--text-secondary); font-size: 0.735rem; }
+.sxhome:has(input:checked) { background: var(--surface-2); border-color: color-mix(in srgb, var(--text-primary) 45%, transparent); }
+.sxgeo { display: grid; gap: 10px; }
+.sxll { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, .8fr); }
+@media (max-width: 420px) { .sxll { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } .sxll .field:last-child { grid-column: 1 / -1; } }
+.sxunit { position: relative; display: block; }
+.sxunit small { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); font-size: 0.765rem; pointer-events: none; }
+.sxunit input { padding-right: 38px !important; }
+.sxloc-btn { display: inline-flex; align-items: center; gap: 8px; justify-self: start; min-height: 44px; }
+.sxloc-btn svg.ic { width: 17px; height: 17px; }
+.sxgeomsg { font-size: 0.735rem; }
+.sxeq label { min-height: 44px; }
+.chipsel.sxeq input[type="checkbox"] { position: absolute; opacity: 0; width: 1px; height: 1px; pointer-events: none; }
+.sxadd { display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 14px; min-height: 48px; }
+.sxadd svg.ic { width: 18px; height: 18px; }
+.field textarea[aria-invalid="true"], .field input[aria-invalid="true"] { border-color: var(--critical); }
+.sxeq label:has(input:checked)::before { content: ""; width: 9px; height: 5px; border-left: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg) translate(1px, -1px); margin-right: 2px; }
+.sxwn { margin: 4px 0 0 36px; font-size: 0.735rem; color: var(--text-muted); }
+
+/* ---------- Meine Ausrüstung (Orte & Ausstattung) + Übersicht unter Mehr ---------- */
+.gx { margin-top: 30px; }
+.gx > h2 { font-size: 1.412rem; font-weight: 700; letter-spacing: -.02em; margin: 0 0 4px; }
+.gx > .sub { color: var(--text-secondary); margin: 0 0 16px; }
+.gx #gxMsg .hint { margin: 0 0 14px; }
+.gxlist { display: grid; gap: 14px; }
+.gxi { display: grid; gap: 12px; }
+.gxh { display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.gxh .mi { width: 36px; height: 36px; border-radius: 10px; background: var(--surface-2); display: grid; place-items: center; color: var(--text-secondary); }
+.gxn b { display: block; font-weight: 600; overflow-wrap: anywhere; }
+.gxn small { color: var(--text-secondary); font-size: 0.765rem; }
+.gx-off { opacity: .78; }
+.gx-wear { display: grid; gap: 7px; }
+.gx-wl { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.gx-wl .num { font-size: 1.118rem; }
+.gx-wl .muted { font-size: 0.765rem; }
+.gx-st { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; font-size: 0.735rem; font-weight: 600; color: var(--text-primary); white-space: nowrap; }
+.gx-st i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.gx-st svg.ic { width: 14px; height: 14px; color: var(--text-secondary); }
+.gx-wf { font-size: 0.735rem; }
+.gx-empty { text-align: center; padding: 22px; }
+.gxf { gap: 16px; }
+.gx2 .field .kicker i { white-space: nowrap; }
+.gxlim { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; }
+.gxsel, .gxf textarea { font: inherit; font-size: 0.941rem; width: 100%; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); min-height: 44px; }
+.gxf .sxnotebox textarea { margin-top: 0; }
+.gxfoot { margin-top: 0; }
+.gxfoot .txtbtn { min-height: 44px; }
+.gxfoot .gx-ret, .gxfoot .sxico { margin-left: auto; }
+#gxOff { margin-top: 18px; }
+.gxo .chead .gxo-a { font-size: 0.824rem; font-weight: 600; color: var(--s1); text-decoration: none; }
+.gxo-l { display: grid; gap: 0; margin-top: 6px; }
+.gxo-r { display: grid; gap: 6px; padding: 12px 0; border-top: 1px solid var(--grid); }
+.gxo-r:first-child { border-top: 0; }
+.gxo-n { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+.gxo-n b { font-weight: 600; font-size: 0.824rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gxo-n small { color: var(--text-muted); font-size: 0.706rem; white-space: nowrap; }
+.gxo .gx-wl .num { font-size: 0.882rem; }
+#sxGear { scroll-margin-top: 64px; }
+
+/* Einheit eines früheren Tages / Nachtragen (Tagesansicht vergangener Tage) */
+#hPlan ~ .sxprev, .sxprev { border-color: color-mix(in srgb, var(--warning) 55%, transparent); }
+@media (max-width: 899px) { #sxPrev { order: 0; } }
+.sxbfdone { background: var(--surface-2); border-radius: 12px; padding: 10px 12px; margin-bottom: 12px; }
+.sxbfdone ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; font-size: 14px; }
+.sxbfdone .num { font-weight: 500; color: var(--text-secondary); }
+.sxbfrows { display: grid; gap: 12px; }
+.sxbfr { border: 1px solid var(--border); border-radius: 14px; padding: 12px; display: grid; gap: 10px; }
+.sxbfh { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; align-items: end; }
+.sxbfh .iconbtn { width: 44px; height: 44px; justify-content: center; padding: 0; }
+.sxbfn { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.sxbfv { display: grid; gap: 4px; min-width: 0; position: relative; }
+.sxbfv span { font-size: 11.5px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sxbfv input { font: inherit; font-size: 16px; width: 100%; min-width: 0; padding: 8px 8px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); min-height: 44px; font-variant-numeric: tabular-nums; -webkit-appearance: none; appearance: none; }
+.sxbfv small { position: absolute; right: 8px; bottom: 12px; font-size: 11px; color: var(--text-muted); pointer-events: none; }
+.sxbfv input:focus { outline: 2px solid color-mix(in srgb, var(--s1) 60%, transparent); border-color: transparent; }
+
+/* Tippziele ≥ 44 px auch für allgemeine Knöpfe/Links in den Ansichten dieses Moduls */
+.sxprev .txtbtn, .setrow a.txtbtn, .gxh .txtbtn, .gxo .chead .gxo-a { min-height: 44px; display: inline-flex; align-items: center; }
+.gxf .chipsel label, #sxPick button { min-height: 44px; }
+/* Design-Review (Typografie, Radien): Systemschrift statt Mono für Labels/Metazeilen, Mindestgröße 0.765rem, 3 Radien-Tokens */
+.sxmeta { font: 400 0.824rem/1.45 var(--sans); font-variant-numeric: tabular-nums; text-transform: none; letter-spacing: 0; }
+.sxtl .k { font: 600 0.765rem/1.3 var(--sans); letter-spacing: .02em; }
+.sxn { font: 600 0.765rem var(--sans); font-variant-numeric: tabular-nums; }
+.sxbfv span, .sxbfv small { font-size: 0.765rem; }
+.sxed, .sxtimer { border-radius: var(--r-card); }
+.sxneed, .sxset, .sxpm, .sxv, .sxnotebox textarea, .sxtm button, .sxloch .mi, .sxico, .sxhome, .gxh .mi, .gxsel, .gxf textarea, .sxbfdone, .sxbfr, .sxbfv input { border-radius: var(--r-ctl); }
+/* Mehr: leere Ausrüstungs-Karte doppelt „Profil, Zonen & Ausrüstung“ bzw. „Orte & Ausstattung“ → nur mit erfasster Ausrüstung zeigen */
+.gxo:not(:has(.gxo-l)) { display: none; }
+#sxFreeCard .sxfree { border-top: 0; padding-top: 0; margin-top: 0; }
